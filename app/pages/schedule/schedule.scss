@@ -1,0 +1,33 @@
+.schedule-page {
+  [ion-item] {
+    border-left: 10px solid;
+  }
+
+  .item.agile {
+    border-left-color: #F64747;
+  }
+
+  .item.frameworks {
+    border-left-color: #2ecc71;
+  }
+
+  .item.infrastructure {
+    border-left-color: #9b59b6;
+  }
+
+  .item.keynote {
+    border-left-color: #e67e22;
+  }
+
+  .item.languages {
+    border-left-color: #2980b9;
+  }
+
+  .item.managment {
+    border-left-color: #1abc9c;
+  }
+
+  .item.mobile {
+    border-left-color: #8e44ad;
+  }
+}

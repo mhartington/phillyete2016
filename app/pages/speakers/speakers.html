@@ -1,0 +1,18 @@
+<ion-navbar *navbar primary>
+  <ion-title>Speakers</ion-title>
+</ion-navbar>
+
+<ion-toolbar primary>
+  <ion-searchbar [(ngModel)]="searchQuery"></ion-searchbar>
+</ion-toolbar>
+
+<ion-content>
+  <ion-list>
+    <a ion-item *ngFor="#speaker of speakers | orderBy:'first_name' | filter:searchQuery" (click)="speakerDeatail(speaker)">
+      <ion-avatar item-left>
+          <img [src]="speaker.picture_url" alt="">
+        </ion-avatar>
+      {{speaker.first_name}} {{speaker.last_name}}
+    </a>
+  </ion-list>
+</ion-content>

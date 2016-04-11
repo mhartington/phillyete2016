@@ -1,0 +1,1356 @@
+{
+  "status": "ok",
+  "sessions": [{
+    "id": 441,
+    "description": "Scala is famous in part for having one of the richest type systems of all mainstream programming languages today. Despite its reputation, Scala's type system remains one of the most under-documented and jargon-heavy aspects of Scala.\r\n\r\nThis talk will turn the academese into English, providing an example-rich tour of Scala\u2019s type system, covering all the things that make people call it \u201cpowerful\u201d. This talk isn't about showcasing a bunch of challenging little logical puzzles with types; on the contrary, this talk is about showing practical uses of Scala's type system, making it work for you and your users. We'll see how we can use it to improve usability by reducing boilerplate, meanwhile keeping code type-safe. From structural types, to type refinements, all the way to Scala's unique flavor of dependent types, we'll touch on the practical and not-so-practical of Scala's type system, all through examples. Finally, we'll go on to see what about Scala's type system is changing in dotty, the experimental new Scala compiler under active development at EPFL.",
+    "name": "Academese to English: A Practical Tour of Scala's Type System",
+    "start_time": "2016-04-11T11:30:00-04:00",
+    "end_time": "2016-04-11T12:30:00-04:00",
+    "speaker_ids": [268],
+    "session_location_name": "Salon B",
+    "session_tags": [24, 33],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 439,
+    "description": "When asked \"What's your architecture?\" most people immediately respond with how their software is laid out and what their plans are for improving parts of it. Rarely does anybody really think through their team and organizational architecture, and even more rarely do people understand how that may fundamentally impact how the software gets written and the product that comes out at the end. \r\n\r\nHow do you prevent your organization from killing your product, and how can each person contribute to make things better?",
+    "name": "How Your Organization is Killing your Software",
+    "start_time": "2016-04-12T08:45:00-04:00",
+    "end_time": "2016-04-12T09:45:00-04:00",
+    "speaker_ids": [164],
+    "session_location_name": "Salon A",
+    "session_tags": [29, 27],
+    "track": "Keynote",
+    "duration": 60
+  }, {
+    "id": 438,
+    "description": "We started Code Climate with a simple hypothesis: static analysis can help developers ship better code, faster. Five years later, we analyze over one trillion lines of code each day spanning a wide variety of programming languages, and along the way we've learned a lot about code quality itself: what it means, why you want it, how you get it, and more.\r\n\r\nThis talk will cover some of the more surprising insights, including what makes a code metric valuable, when unmaintainable code may be preferable, and the number one thing that prevents most developers from maintaining quality code over time. There will be plenty of time for Q&A throughout, so come prepared to discover and discuss.",
+    "name": "Code Quality in Practice",
+    "start_time": "2016-04-11T16:00:00-04:00",
+    "end_time": "2016-04-11T17:00:00-04:00",
+    "speaker_ids": [396],
+    "session_location_name": "Salon D",
+    "session_tags": [24],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 437,
+    "description": "The real power and value proposition of Apache Spark is in creating unified use cases combining batch analysis, stream analysis, SQL, machine learning, graph processing and visualizations. In this live coding demo, Sameer will use various Wikipedia datasets to build a dashboard about what is happening in the world during his talk. The application will connect to the live Edits stream of Wikipedia and join it with other Wikipedia datasets to derive interesting insights about what's trending on the planet.",
+    "name": "Exploring Wikipedia with Apache Spark: A Live Coding Demo",
+    "start_time": "2016-04-12T16:00:00-04:00",
+    "end_time": "2016-04-12T17:00:00-04:00",
+    "speaker_ids": [249],
+    "session_location_name": "Salon D",
+    "session_tags": [55, 28, 58],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 436,
+    "description": "When we first started working on Ember in 2011, the web was a very different place. Backbone.js was just six months old, ES5 had just started to land, and around half of the page views on the web came from IE 6, 7 or 8.\r\n\r\nFast forward to 2016: we have a number of great web frameworks, JavaScript is on an annual release schedule, and Chrome is ascendant. And while mobile phones drove negligible traffic in 2011, the picture is very different in 2016: four in ten page views came from iOS or Android last month.\r\n\r\nAs a project, Ember knows that it needs to stay ahead of changes to the web platform. At the same time, we are not willing to force our users to bear the burden of those changes. It's hard to build great apps without stability.\r\n\r\nThis tension is difficult to manage, but tackling it head on became our mantra: \"Stability without Stagnation.\"\r\n\r\nIn this talk, Yehuda will explain how Ember manages to stay on top of the latest trends without breaking applications, and has also managed to grow and maintain a large addon ecosystem.\r\n\r\nHe will also talk about some of the latest features in Ember and what's coming next. Finally, he will talk about Glimmer 2, Ember's fast new rendering engine, and explain how (and why!) the Ember team managed to completely rewrite our rendering engine multiple times without breaking application.",
+    "name": "Stability Without Stagnation: Lessons Learned Shipping Ember",
+    "start_time": "2016-04-11T11:30:00-04:00",
+    "end_time": "2016-04-11T12:30:00-04:00",
+    "speaker_ids": [160],
+    "session_location_name": "Salon C",
+    "session_tags": [28, 37],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 430,
+    "description": "Many developers today are turning to well established third-party libraries to speed the development process and realize quality improvements over creating an in-house proprietary font parsing or image rendering library from the ground up. Efficiency comes at a cost though: a single application may have as many as 100 different third party libraries implemented. The result is that third-party and open source libraries have the ability to spread a single vulnerability across multiple products- exposing enterprises and requiring software vendors and IT organizations to patch the same vulnerability repeatedly. \r\n\r\nHow big of a problem is this? What libraries are the biggest offenders for spreading pestilence? And what can be done to minimize this problem? This presentation will dive deep into vulnerability data and explore the source and spread of these vulnerabilities through products - as well as actions developers, the security research community, and enterprise customers can take to address this problem.\r\n",
+    "name": "Security Vulnerabilities in Third Party Code: FIX ALL THE THINGS!",
+    "start_time": "2016-04-12T14:45:00-04:00",
+    "end_time": "2016-04-12T15:45:00-04:00",
+    "speaker_ids": [428],
+    "session_location_name": "Salon D",
+    "session_tags": [64, 28],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 426,
+    "description": "Open Source communities have been pushing the state of art in containers, schedulers, and distributed systems in the last two years. The excitement in the community at the possibilities these technologies unlock is continuing to build.\r\n\r\nBut, what are we solving for? How does this make your infrastructure better?\r\n\r\nThis talk will describe how bringing these technologies together will create more reliable and greatly more trusted server infrastructure. And it will dive into how you can take steps to start taking advantage of these technologies today and moving into the future.",
+    "name": "The future of container-enabled infrastructure",
+    "start_time": "2016-04-12T10:15:00-04:00",
+    "end_time": "2016-04-12T11:15:00-04:00",
+    "speaker_ids": [286],
+    "session_location_name": "Salon C",
+    "session_tags": [49, 26],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 425,
+    "description": "People's financial activities with banks are increasingly migrating to digital platforms. Banks, which are large institutions that move money are transforming into Software Engineering Companies. At the core of modern banks is a large network of systems and platforms that capture, collect, process and analyze the digital data. Collecting and analyzing customers' activities in real-time is critical for modern financial institutions to succeed.  \r\n\r\nIn this talk we present a business use case where Capital One needs to process customer activities real-time and react to events appropriately as needed. We then present our experience in building a real-time analytics application that serves the business using a set of open source software frameworks with Apache Flink at its core for real-time stream processing engine. We then show a demo of running system serving our use case.  Apache Flink with its real-time event processing capability that supports true event-time and its sophisticated windowing semantics is an ideal candidate for our application. We conclude the talk by putting the architecture of this application in the context of generic stream analytics framework and how many other Capital One's use cases such as fraud detection, can be served with this analytics platform.\r\n",
+    "name": "Emergence of Real-Time Analytics: Real-time Analysis of Customer Financial Activities With Apache Flink",
+    "start_time": "2016-04-12T13:30:00-04:00",
+    "end_time": "2016-04-12T14:30:00-04:00",
+    "speaker_ids": [381],
+    "session_location_name": "Salon A",
+    "session_tags": [55, 57, 28, 54],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 424,
+    "description": "Agile HR represents a new, emerging way for HR to partner with their leaders and people.  The paradigm is shifting from one of controls and standards to a new level of engagement \u2013 one that focuses on the facilitation and improvement of organizational agility.  This means helping to build and drive programs that create adaptability, foster innovation, provide transparency, and inspire collaboration.  Building on these principles, Comcast\u2019s Technology + Product team is reimagining Performance Management.  We are an innovative and agile organization and we are transforming our Performance Management approach to reflect our culture, provide real-time feedback, and develop our most important resources \u2013 our talent.",
+    "name": "Agile HR",
+    "start_time": "2016-04-12T10:15:00-04:00",
+    "end_time": "2016-04-12T11:15:00-04:00",
+    "speaker_ids": [405],
+    "session_location_name": "Salon E",
+    "session_tags": [29, 38],
+    "track": "Agile",
+    "duration": 60
+  }, {
+    "id": 421,
+    "description": "You\u2019ve built some software that users love, and while its use starts to become more frequent it also becomes more critical. Suddenly the failures, inevitable and previously merely a nuisance, have become critical and emotionally fraught as your users see reputation, revenue, and even job security imperiled!\r\n\r\nBugs come in many flavors. None quicken the pulse as much as a critical system suffering from poor performance. They can be hard to drive to root cause, hard to fix, hard to reproduce, and even hard for the user to describe beyond \u201cit\u2019s slow (fix it!)\u201d. Fortunately we\u2019re not completely alone in those lonely moments: we have the lessons and\u2014critically\u2014the tools from the engineers who have survived similar situations.\r\n\r\nDTrace is one such tool, born from experiences debugging functional and performance problems on the world\u2019s most critical systems for over a decade. In this talk we will walk through the basics of DTrace and then focus on a case study of using it to solve a performance problem while turning an audibly angry customer into a happy one.",
+    "name": "Understanding Performance with DTrace (While The Customer Yells at You): A Case Study",
+    "start_time": "2016-04-12T11:30:00-04:00",
+    "end_time": "2016-04-12T12:30:00-04:00",
+    "speaker_ids": [493],
+    "session_location_name": "Salon C",
+    "session_tags": [26, 68],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 420,
+    "description": "Artificial Intelligence started with small data and rich semantic theories. The goal was to build systems that could reason over logical models of how the world worked; systems that could answer questions and provide intuitive, cognitively accessible explanations for their results. There was a tremendous focus on domain theory construction, formal deductive logics and efficient theorem proving. The problem, of course, was the knowledge acquisition bottleneck; it was too difficult, slow and costly to render all common sense knowledge into an integrated, formal representation that automated reasoning engines could digest. In the meantime, huge volumes of unstructured data became available, compute power became ever cheaper and statistical learning methods flourished. \r\n\r\nAI evolved from being predominantly theory-driven to predominantly data-driven. Automated systems generated output using inductive techniques. Training over machine learning algorithms over massive data produced flexible and capable control systems, powerful predictive engines in domains ranging from language translation to pattern recognition, from medicine to economics. But what do the models mean? From the very inception of Watson, I put a stake in the ground; we will use a diversity of shallow text analytics, leverage loose and fuzzy interpretations of unstructured information. We would allow many researchers to build largely independent NLP components and rely on machine learning techniques to balance and combine these loosely federated algorithms to evaluate answers in the context of human-readable passages. The approach, with a lot of good engineering, worked! Watson became arguably the best factoid question-answering system in the world. WatsonPaths, its descendant, could connect questions to answers over multiple steps, offering passage-based \u201cinference chains\u201d from question to answer without a human writing a single \u201cif-then rule.\u201d \r\n\r\nBut could it reason over a logical understanding of the domain? Could it fluently dialog or automatically learn from language and build the logical or cognitive structures that enable and precede language itself? Could it understand and learn the meaning behind the words the way we do? This talk draws an arc from Theory-Driven AI to Data-Driven AI and positions Watson along that trajectory. It proposes that to advance AI to where we all know it must go, we need to discover how to efficiently combine human cognition, massive data and logical theory formation. We need to boot strap a fluent collaboration between human and machine that engages logic, language and learning to enable machines to learn how to learn and ultimately deliver on the promise of AI.",
+    "name": "AI: A Return to Meaning",
+    "start_time": "2016-04-11T08:45:00-04:00",
+    "end_time": "2016-04-11T09:45:00-04:00",
+    "speaker_ids": [417],
+    "session_location_name": "Salon A",
+    "session_tags": [39, 27, 40],
+    "track": "Keynote",
+    "duration": 60
+  }, {
+    "id": 415,
+    "description": "Apps no longer just run on smartphones and tablets \u2013 they process verbal commands we speak to devices like Amazon Echo, run as bots in Slack channels, and are rapidly evolving customer experiences that span a range of IoT devices in homes, cars, offices, and industrial settings. Crucial to the success of all these ecosystems is one central idea: Code has to not just run in the cloud, it has to be easy to get it there and scale it there. Serverless computing \u2013 calling AWS Lambda functions instead of managing heavyweight applications on infrastructure \u2013 is changing how developers think about backends, event-driving processing, and application design. Infrastructure, deployment, and software platform setup that used to take days or weeks of time vanishes, replaced by microservices that do one thing well, require zero effort to deploy, and scale automatically and implicitly just by using them. At the same time, AWS Lambda and other serverless systems have redefined cloud economics by eliminating the possibility of cold servers, creating a radical new price point for applications running in the cloud and freeing developers and COO\u2019s alike from worrying about paying for unused capacity. In this talk we\u2019ll define Serverless computing, examine the key trends and innovative ideas behind the technology, and look in detail at design patterns for big data, event processing, mobile backends, and more using AWS Lambda.",
+    "name": "Serverless Design Patterns for the Enterprise with AWS Lambda",
+    "start_time": "2016-04-11T14:45:00-04:00",
+    "end_time": "2016-04-11T15:45:00-04:00",
+    "speaker_ids": [258],
+    "session_location_name": "Salon C",
+    "session_tags": [65, 50, 26],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 414,
+    "description": "Inexpensive wireless microcontrollers are everywhere. This session will look at building wireless sensors on a variety of hardware: the super low cost ESP8266, the Particle Photon and it's cloud services, and the new Arduino MKR1000. In addition to building connected devices, I'll discuss some options for collecting, storing, and visualizing the sensor data.",
+    "name": "Building Wireless Sensors",
+    "start_time": "2016-04-12T13:30:00-04:00",
+    "end_time": "2016-04-12T14:30:00-04:00",
+    "speaker_ids": [377],
+    "session_location_name": "Salon D",
+    "session_tags": [51, 30, 52],
+    "track": "Mobile",
+    "duration": 60
+  }, {
+    "id": 409,
+    "description": "gRPC is a general RPC framework focused on performance and interoperability across a wide range of programming environments. gRPC was initially developed at Google as a successor to an internal RPC platform called Stubby -- a general application platform at the heart of many Google products and services. gRPC seeks not only to replicate the success of Stubby, but improve upon it, in the open, around modern standards such as HTTP\/2 and proven technologies such as Protocol Buffers.\r\n\r\nIn this session we will demonstrate, through a series of live demos and code walkthroughs, how to design, build, and deploy a collection of microservices using gRPC from the ground up. Key gRPC concepts will be covered including authenticating gRPC services and clients, service discovery, monitoring, and troubleshooting.\r\n\r\nAfter attending this session attendees will understand:\r\n\r\n<ul>\r\n<li>How to use modern authentication flows to authenticate gRPC clients and servers<\/li>\r\n<li>How to effectively leverage common service discovery backends to register and locate gRPC services<\/li>\r\n<li>How to define messages and gRPC services using the Protocol Buffers 3 IDL and generate Go service stubs using the go-grpc plugin<\/li>\r\n<li>How to generate client libraries for non-Go languages for increased interoperability<\/li>\r\n<li>How to deploy gRPC services using containers and clusters manager management tools such as Kubernetes<\/li>\r\n<\/ul>",
+    "name": "Building Microservices with gRPC and Kubernetes - A practical introduction",
+    "start_time": "2016-04-11T13:30:00-04:00",
+    "end_time": "2016-04-11T14:30:00-04:00",
+    "speaker_ids": [371],
+    "session_location_name": "Salon C",
+    "session_tags": [49, 50, 26, 46, 47, 48],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 408,
+    "description": "Think that C++ is an antiquated language and isn\u2019t worth learning? Think that programming in C++ is too difficult and you\u2019ll spend all of your time debugging segmentation faults and memory leaks? In this talk you\u2019ll find out some of how C++ has changed in C++11, C++14, and beyond in ways that make programmer\u2019s lives easier and allow you to write high-performance, maintainable, and well-designed code. Learn why C++ matters to companies around the world and why they continue to use it for performance critical and fundamental cross-platform libraries.",
+    "name": "Modern C++ for Fun and Profit: This isn\u2019t your old C++",
+    "start_time": "2016-04-12T16:00:00-04:00",
+    "end_time": "2016-04-12T17:00:00-04:00",
+    "speaker_ids": [406],
+    "session_location_name": "Salon A",
+    "session_tags": [24],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 404,
+    "description": "With the recent release of Angular 2 and React.js capturing growing interest, there are now SO many options to build a front-end to our web applications. Along with the increasing number of developers and the explosive popularity of JavaScript, what was the wild wild west of app development is maturing with it\u2019s own best practices and idioms of software. In this talk we\u2019re casting a wide-net on the range of possibilities for building next-gen front-end apps by looking at the options we have for both building and deploying applications on the edge. Join us as we build and deploy an app in real-time using both Angular 2 and React.js.",
+    "name": "Taming the Wild Wild West of Next-Gen Front-End Apps",
+    "start_time": "2016-04-12T14:45:00-04:00",
+    "end_time": "2016-04-12T15:45:00-04:00",
+    "speaker_ids": [291],
+    "session_location_name": "Salon C",
+    "session_tags": [67, 28, 37, 62],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 403,
+    "description": "React is a library for building user interfaces.  Developers specify how an application \"should look\", and React automatically updates the page when the underlying data changes.  React is able to do this through a process we call \"Reconciliation\".  In this talk, I'll describe how reconciliation works within React, and how we use it to enhance both performance and user experience. In addition to being conceptually interesting, understanding the reconciliation process will allow you to better optimize your own applications.",
+    "name": "React.js Reconciliation",
+    "start_time": "2016-04-11T10:15:00-04:00",
+    "end_time": "2016-04-11T11:15:00-04:00",
+    "speaker_ids": [204],
+    "session_location_name": "Salon C",
+    "session_tags": [28, 37, 62],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 402,
+    "description": "Modern software architecture emphasizes modularity and composability. While the industry at large is rapidly moving toward approaches such as microservices, the monolith is still alive and well in the enterprise.\r\n\r\nMonolithic projects will often have tight coupling between components, resulting in codebases that are large and unwieldy. This directly impacts productivity, and translates into costs for the organization.\r\n\r\nIn this session we will explore the aspects of Clojure that encourage writing code that is loosely coupled and reusable. We will discuss the benefits of the Clojure approach, and we will see how it applies in practice with a live demo.",
+    "name": "Transforming Enterprise Development With Clojure",
+    "start_time": "2016-04-12T11:30:00-04:00",
+    "end_time": "2016-04-12T12:30:00-04:00",
+    "speaker_ids": [308],
+    "session_location_name": "Salon B",
+    "session_tags": [69, 28, 35, 24],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 399,
+    "description": "As programmers, we spend the bulk of our time writing code that transforms data from one structure to another. The status quo in languages like Java uses imperative loops that accumulate changes in mutable objects. Functional programming and immutable values offer a different approach with opportunities for composability, concurrency, and simplicity.\r\n\r\nIn this talk we'll examine Clojure's approach to data and data transformation, which is built from a foundation of immutable values and persistent collections. Clojure offers several models for transformation of collections - sequences, reducers, and transducers. We'll compare these to each other and to the status quo to see how the functional approach results in less code, fewer bugs, and greater reuse.",
+    "name": "Unleash Your Data with Clojure: Using Transducers and Sequences",
+    "start_time": "2016-04-12T10:15:00-04:00",
+    "end_time": "2016-04-12T11:15:00-04:00",
+    "speaker_ids": [311],
+    "session_location_name": "Salon B",
+    "session_tags": [69, 35, 24],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 398,
+    "description": "<p>In today\u2019s world of exploding big and fast data, developers who want both streaming analytics and ad hoc, OLAP-like analysis have often had to develop complex architectures such as Lambda\u2014a path for fast streaming analytics using NoSQL stores such as Cassandra and HBase with a separate batch path involving HDFS and Parquet. While this approach works, it involves too many moving parts, too many technologies for ops, and too many engineering hours. Helena Edelson and Evan Chan highlight a much simpler approach to combine streaming and ad hoc\/batch analysis using what they call the NoLambda stack (Apache Spark\/Scala, Mesos, Akka, Cassandra, Kafka), plus FiloDB, a new entrant to the distributed-database world that combines streaming and ad hoc analytics.<\/p>\r\n\r\n<p>Topics include:\r\n\r\n<ul>\r\n<li>Modern streaming and batch\/ad-hoc architectures<\/li>\r\n<li>Precise and scalable streaming ingestion using Apache Kafka, Akka, Spark Streaming, Cassandra, and FiloDB<\/li>\r\n<li>How a unified streaming + batch stack can lower your TCO<\/li>\r\n<li>What FiloDB is and how it enables fast analytics with competitive storage cost<\/li>\r\n<li>Use cases involving time series, smart cities, and event data<\/li>\r\n<li>Machine learning using Spark MLLib\u2014without the need to export to HDFS<\/li>\r\n<li>Combining streaming and historical\/ad-hoc data analysis, including efficient longer-time window analysis<\/li>\r\n<\/ul>",
+    "name": "NoLambda: A new architecture combining streaming, ad hoc, machine learning, and batch analytics",
+    "start_time": "2016-04-11T13:30:00-04:00",
+    "end_time": "2016-04-11T14:30:00-04:00",
+    "speaker_ids": [330],
+    "session_location_name": "Salon A",
+    "session_tags": [61, 55, 28, 53, 58, 54],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 394,
+    "description": "Jupyter (formerly part of IPython) is a popular tool for interactively exploring and sharing computational ideas. The Jupyter project provides a consistent environment for dozens of languages, including Python, Julia, and R. The Jupyter web notebook makes it easy to use interactive controls to manipulate and visualize computations and provides a widely-used format for documents that include both code and exposition.\r\n\r\nIn this talk, we will give a brief overview of the Jupyter ecosystem and show examples of how Jupyter fosters interactive exploration and collaboration. We will also look at current and future developments in the platform, including the current rewrite of the notebook.",
+    "name": "Interactive Computing with Jupyter: Past, Present, and Future",
+    "start_time": "2016-04-12T14:45:00-04:00",
+    "end_time": "2016-04-12T15:45:00-04:00",
+    "speaker_ids": [383],
+    "session_location_name": "Salon E",
+    "session_tags": [55, 28],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 391,
+    "description": "Managing configurations for different kinds of nodes and cloud resources in a microservice architecture can be an operational nightmare, especially if not managed with the application codebase. CI and CD job environments often tend to stray from production configuration yielding their results unpredictable at best, or producing false positives in the worst case. Code pushes to staging and production can have unintended consequences which often can\u2019t be inspected fully on a dry run.\r\n\r\nThis session will show you a toolchain and immutable infrastructure principles that will allow you to define your infrastructure in code versioned alongside your application code that will give you repeatable configuration, ephemeral testing environments, consistent CI\/CD environments, and diffable dependency transparency all before pushing changes to production.",
+    "name": "From Zero to Application Delivery with NixOS",
+    "start_time": "2016-04-11T10:15:00-04:00",
+    "end_time": "2016-04-11T11:15:00-04:00",
+    "speaker_ids": [392],
+    "session_location_name": "Salon B",
+    "session_tags": [50, 26],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 389,
+    "description": "The Node.js community has evolved a number of application design patterns for JavaScript applications, including application-internal package management patterns. The all-around awesomeness of NPM has lent itself to a hyper-modular approach for Node code not seen in many other language communities. This is great, especially when writing open-source tools designed to be used by others' applications. Meanwhile, the \"microservices\" or \"distributed systems\" architectural patterns have begun their ascendancy. It makes sense to isolate components so they can be managed independently of one another. One could be forgiven for thinking that \"many modules\" and \"microservices\" are similar answers to similar questions, but in fact they are completely orthogonal, as we found out the hard way.\r\n\r\nRecently, the Appium project, a large open-source application, decided to rewrite its codebase using ES2015, the newest version of JS. Not only that, we wanted to do a complete architectural overhaul, and in the process avail ourselves of all of the amazing new practices we'd heard lauded during conferences over the previous years. We went for it whole hog, and six months later we had our new application---all 45 modules' worth. It was beautiful! And it solved many of our problems. But alas, it came with new ones we had not anticipated in our headlong rush towards the hottest new ideas.\r\n\r\nIn this talk, I'll tell the story of what worked and what didn't. What were the goals of our rewrite and how did our choices deliver on those goals? Specifically, how did ES2015 and the \"many modules\" approach work for us? What could have worked better and where are we going from here? What tools did we use or invent to cover over any drawbacks of our approach?\r\n\r\nA degree of caution is important for any rewrite, especially when you are tempted to choose new languages or patterns because of their tantalizing buzzwordiness. On the other hand, there are many things you cannot know before you jump in, complete a project, look back, and ask how it went. What we learned is that the accepted Node wisdom, at least as we internalized it, doesn't apply to every kind of application. We needed to try things out and allow reality to humble us in order to eventually find the right patterns for our specific use case. Please, allow the false starts and dead ends we encountered to help you when you come to a rearchitecture of your own!",
+    "name": "The Node Module Diaries: Large App Architecture from the Trenches",
+    "start_time": "2016-04-12T13:30:00-04:00",
+    "end_time": "2016-04-12T14:30:00-04:00",
+    "speaker_ids": [388],
+    "session_location_name": "Salon E",
+    "session_tags": [26, 37, 30, 68],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 380,
+    "description": "We recently replaced a proprietary API management solution with an in-house implementation built with nginx and Lua that is more robust, higher performance, and has greater visibility. Learn about our development process and the overall architecture that allowed us to write high-level code while enjoying native code performance, and how we leveraged other open source tools like Vagrant, Ansible, and OpenStack to build an automation-rich delivery pipeline. We will also take an in-depth look at our capacity management approach that differs from the rate limiting concept prevalent in the API community.",
+    "name": "Reliable High-Performance HTTP Infrastructure with nginx and Lua",
+    "start_time": "2016-04-11T16:00:00-04:00",
+    "end_time": "2016-04-11T17:00:00-04:00",
+    "speaker_ids": [266],
+    "session_location_name": "Salon A",
+    "session_tags": [50, 26],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 376,
+    "description": "Spark is becoming a data processing giant, but it leaves much as an exercise for the user. Developers need to write specialized logic to move between batch and streaming modes, manually deal with late or out-of-order data, and explicitly wire complex flows together.\r\n\r\nThis talk looks at how we tackled these problems over a multi-petabyte dataset at Cerner. We start with how hand-written solutions to these problems evolved to prescriptive practices, opening up development of such systems to a wider audience. From there we look at how the emergence of Google's Dataflow on Spark is helping us take the next step: the tradeoffs between correctness, latency, and cost are becoming a simple, easily changeable decision rather than a deep analysis for each new need. Finally, we look at challenges unique to doing processing in large organizations, such as making independent units of processing composable into large pipelines -- and making them usable in both batch and stream modes.",
+    "name": "Untangling Healthcare with Spark and Dataflow",
+    "start_time": "2016-04-12T14:45:00-04:00",
+    "end_time": "2016-04-12T15:45:00-04:00",
+    "speaker_ids": [374],
+    "session_location_name": "Salon A",
+    "session_tags": [55, 28, 58, 70],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 366,
+    "description": "Distributed Cluster Schedulers are becoming increasingly popular. They present a good abstraction for running workloads at a \"warehouse-scale\" on the public and private clouds by decoupling workload from compute, network and storage resources.\r\n\r\nIn this talk, we will talk about the operational challenges of running a Cluster Scheduler to serve highly available services across multiple geographies and in a heterogeneous runtime environment. We will go into details of the needs from a cluster scheduler with respect to managing multiple runtime\/virtualization platforms, provide observability, running maintenance on hardware and software, etc.\r\n\r\nLastly, we will talk about an open source distributed cluster scheduler called Nomad, briefly describe it's architecture and\r\npresent how Nomad solves the operational challenges and provides a highly scalable environment for running applications.",
+    "name": "Taming the Modern Public and Private Clouds with Nomad",
+    "start_time": "2016-04-11T11:30:00-04:00",
+    "end_time": "2016-04-11T12:30:00-04:00",
+    "speaker_ids": [355],
+    "session_location_name": "Salon A",
+    "session_tags": [65, 50, 26],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 365,
+    "description": "Virtual and augmented reality headsets are on their way to an office near you. Forecasts estimate that the immersive computing industry will be valued at over $150B by the year 2020, as consumer and enterprise device adoption grows with the release of devices by Microsoft, Oculus, Samsung, and HTC - to name just a few. As the technology sector begins to incorporate virtual and augmented reality devices into everyday scenarios, the impact across different industries will enable us to rethink the way that we use 3D content to explore and experience data. \r\n\r\nThis session will provide an overview of the current state of VR and AR technologies, and walk through the code behind a WebVR-enabled site for data visualization. We'll discuss how VR and AR is being used outside of the gaming industry by non-profits and enterprises to help drive their businesses, and showcase examples of how immersive tech is already being used to redefine our relationship with the digital world.",
+    "name": "Virtual Reality Beyond Gaming: Immersive Technologies in the Industry",
+    "start_time": "2016-04-11T13:30:00-04:00",
+    "end_time": "2016-04-11T14:30:00-04:00",
+    "speaker_ids": [352],
+    "session_location_name": "Salon E",
+    "session_tags": [28, 37, 30, 71],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 357,
+    "description": "Technology is an ever-changing arena where it seems that everything is the one perfect solution for all your problems. When someone shows you the Next Big Thing, how can you be sure that it will work as intended, much less provide value or serve the needs of the business down the road?\r\n\r\nBased mainly on development and its related technologies, this talk will address some of the benefits and blight that come from tech selection as well as antipatterns to avoid, situations to embrace, and how to embrace your inner technical nerd and talk shop to engineers. \r\n",
+    "name": "Pitfalls in Technology Selection",
+    "start_time": "2016-04-11T11:30:00-04:00",
+    "end_time": "2016-04-11T12:30:00-04:00",
+    "speaker_ids": [206],
+    "session_location_name": "Salon E",
+    "session_tags": [44, 31],
+    "track": "Management",
+    "duration": 60
+  }, {
+    "id": 351,
+    "description": "WebAssembly is an emerging standard which defines a new, portable, binary format to serve as a safe and efficient compiler target for the Web. Driven by active cross-browser collaboration, WebAssembly is rapidly taking shape and should be coming in the future to a browser near you. What does this new addition to the open Web platform mean for developers?  This talk will provide an overview of the design of WebAssembly and explain how WebAssembly can be used to both bring existing codebases to the Web as well as complement modern web apps written in JS and HTML5. The talk will also cover future directions for WebAssembly such as supporting languages beyond C\/C++ and providing tighter integration with JS and Web APIs. If you care about large code, load time, predictable performance, compiling to the web, alternative programming languages or you are using a framework that does, come learn about WebAssembly.\r\n",
+    "name": "WebAssembly: A New Compilation Target for the Web",
+    "start_time": "2016-04-12T16:00:00-04:00",
+    "end_time": "2016-04-12T17:00:00-04:00",
+    "speaker_ids": [187],
+    "session_location_name": "Salon C",
+    "session_tags": [37, 24],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 348,
+    "description": "Agile vs. Waterfall is often presented as a difference in development methodology, but it is much more a clash of cultures.  Large bureaucracies, government regulation and many other factors can create an environment that is hostile to many forms of innovation and in which waterfall is actually the most cost-effective approach.\r\n\r\nInnovating in such environments can be a challenge, but it is both personally and professionally rewarding to do so.   In examining the motivations behind these hostile cultures, we can see patterns and opportunities where individuals or teams of developers can serve two masters and deploy cutting-edge technologies and techniques while still honoring both the spirit and the letter of a myriad of restrictions.\r\n\r\nWhether you are building a product targeting a regulated industry or working on a project at LargeCorp, there are strategies you can adopt that will significantly reduce friction, increase efficiency, and lead to a more positive outcome!",
+    "name": "Delivering Agile Methodologies and Emerging Technologies in Hostile Environments",
+    "start_time": "2016-04-12T11:30:00-04:00",
+    "end_time": "2016-04-12T12:30:00-04:00",
+    "speaker_ids": [239],
+    "session_location_name": "Salon E",
+    "session_tags": [29, 31],
+    "track": "Management",
+    "duration": 60
+  }, {
+    "id": 344,
+    "description": "When Apple open sourced Swift late last year, they invited the community into the discussion of where Swift should go and why. Instead of us having to imagine what the Swift language and library stewards and architects are thinking, we can read their words on the Swift evolution mailing list. In this talk we\u2019ll look at what idiomatic Swift will look like soon when Swift 3 is soon released and talk about the reasoning behind some of the choices.",
+    "name": "The World of Swift 3",
+    "start_time": "2016-04-11T11:30:00-04:00",
+    "end_time": "2016-04-11T12:30:00-04:00",
+    "speaker_ids": [343],
+    "session_location_name": "Salon D",
+    "session_tags": [24, 30],
+    "track": "Mobile",
+    "duration": 60
+  }, {
+    "id": 342,
+    "description": "Microservices are just like monoliths, except you replace components with services, and method calls with REST calls, right? Wrong! An architecture like this will give you all the complexity of microservices, with none of the benefits.  Microservices are supposed to promise improved scalability and resilience by isolating services from each other, but this is undermined when all communication between services is synchronous RESTful communication. To realise the full potential of microservices, we need to stop using REST as our go to, and start rethinking our architectures to use asynchronous communication.  This presentation looks at how Lightbend Lagom solves some of these problems, allowing a microservice architecture that will scale and be resilient.",
+    "name": "Rethinking REST in a Microservices World",
+    "start_time": "2016-04-11T10:15:00-04:00",
+    "end_time": "2016-04-11T11:15:00-04:00",
+    "speaker_ids": [346],
+    "session_location_name": "Salon D",
+    "session_tags": [28, 59, 47, 36],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 338,
+    "description": "As core counts continue to increase, how we exploit hardware parallelism in practice shifts from concurrency -- using more cores to handle more user requests -- to parallelism -- using more cores to solve data-intensive problems faster.  This talk will explore the different goals, tools, and techniques involved between these various approaches, and how to analyze a computation for potential parallelism, with specific attention to the parallel stream library in Java 8.  ",
+    "name": "From Concurrent to Parallel: Understanding Parallel Stream Performance in Java SE 8",
+    "start_time": "2016-04-11T16:00:00-04:00",
+    "end_time": "2016-04-11T17:00:00-04:00",
+    "speaker_ids": [241],
+    "session_location_name": "Salon C",
+    "session_tags": [59, 24, 54],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 337,
+    "description": "Programming language design is not just about type theory and grammars.  For evolving a mature programming language like Java, it is about finding ways to add capabilities while maintaining compatibility, both with existing code and with the expectations and mental models of 9 million or so developers.  In this talk, Java Language Architect Brian Goetz looks at some of the challenges and lessons of steering Java through major evolutionary changes, and a sneak peek at where the Java platform is headed.  ",
+    "name": "Move Deliberately and Don't Break Anything: Lessons from the Evolution of Java",
+    "start_time": "2016-04-12T10:15:00-04:00",
+    "end_time": "2016-04-12T11:15:00-04:00",
+    "speaker_ids": [241],
+    "session_location_name": "Salon D",
+    "session_tags": [59, 24],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 335,
+    "description": "Ionic has revolutionized the way web developers make the transition mobile development, but there\u2019s always room to improve and make the lives of new app developers easier. With Ionic 2, we\u2019ve improved upon much of what made Ionic 1 great, while also keeping things simple and reducing the fatigue that developers can feel when learning a new tool. We\u2019ll introduce you to the basic Ionic 2 concepts and build an app live.",
+    "name": "Ionic 2: Your First @App",
+    "start_time": "2016-04-11T16:00:00-04:00",
+    "end_time": "2016-04-11T17:00:00-04:00",
+    "speaker_ids": [333],
+    "session_location_name": "Salon B",
+    "session_tags": [60, 30],
+    "track": "Mobile",
+    "duration": 60
+  }, {
+    "id": 332,
+    "description": "Once upon a time, writing software felt a lot like working in a factory. A product went through an assembly-line-like series of stages where each team added their contribution. At the end of the line, the finished product was packaged up and physically shipped to a customer.\r\n\r\nFast forward sixty years. Both the software itself and our process for making it are radically different from this original conception. But in the absence of a newer, more appropriate model for software development, we've unconsciously retained many industrial-era concepts -- and they're holding us back. We need a new model for software development that captures what we do today, and prepares us to build what we need for tomorrow. \r\n\r\nI will outline a new model for software development that places the people who do it in the center of the picture, instead of on the periphery. Applying it to our projects gives us real, immediate answers to the hardest questions of software today.\r\n",
+    "name": "Factory, Workshop, Stage",
+    "start_time": "2016-04-12T14:45:00-04:00",
+    "end_time": "2016-04-12T15:45:00-04:00",
+    "speaker_ids": [289],
+    "session_location_name": "Salon B",
+    "session_tags": [29, 31],
+    "track": "Management",
+    "duration": 60
+  }, {
+    "id": 329,
+    "description": "The concept of stream processing has been around for a while and most software systems operate as simple stream processors at their core: they read data in, process it, and maybe emit some data out. So why are there so many stream processing frameworks, all with different terminology, and why does it seem so complex to get up and running? What benefits does each stream processing system provide, and more importantly, what are they missing?\r\n\r\nThis presentation will start by abstracting away the individual frameworks and describe the key features and benefits that stream processing frameworks provide. These core features include scalability and parallelism through data partitioning, fault tolerance and event processing order guarantees, support for stateful stream processing, and handy stream processing primitives such as windowing. Understanding these features will enable you to map practical data problems to stream processing, write applications that process streams of data at scale, and understand how the different frameworks fit into the stream processing framework design space.\r\n\r\nNext, we'll describe Kafka's new stream processing library, Kafka Streams, and the design decisions and tradeoffs it makes. Kafka Streams represents a new design point in the stream processing space. Where most frameworks provide a service for running stream processing applications, Kafka Streams emphasizes low-overhead development that feels more like developing any other application. This trades off the benefits of a centrally-managed stream processing infrastructure for an easier adoption path and easy integration with your existing deployment tooling. Kafka Streams is also designed to work solely with Kafka. This limits its use to data that is already in Kafka and requires additional tools to import\/export data from other systems, but allows Kafka Streams to leverage unique Kafka features such as consumer groups to keep implementation complexity low and get scalability and fault tolerance nearly for free. Combined, these decisions represent a new design point for stream processing applications that we believe address use case not well served by today's popular frameworks.\r\n",
+    "name": "Demystifying Stream Processing with Apache Kafka",
+    "start_time": "2016-04-12T11:30:00-04:00",
+    "end_time": "2016-04-12T12:30:00-04:00",
+    "speaker_ids": [326],
+    "session_location_name": "Salon A",
+    "session_tags": [55, 26, 53, 54],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 325,
+    "description": "What do you get when you combine strict functional programming with heavy user interaction? Challenges, and unexpected freedoms.\r\n\r\nElm is a purely functional language for the browser. It compiles to JavaScript -- after enforcing immutability, types, semantic versioning, and tight boundaries for user and server interactions.\r\n\r\nWorking within these restrictions, I find my programming principles turned upside down. Small components? Who needs them. Global state? No problem. New principles emerge instead: events, reproducibility, kindness in times of error.\r\n\r\nThis session gives an overview of Elm, then focuses on the Elm Architecture: how it overturns what is essential in object-oriented and even backend functional programming.",
+    "name": "Adventures in Elm: Events, Reproducibility, and Kindness",
+    "start_time": "2016-04-12T13:30:00-04:00",
+    "end_time": "2016-04-12T14:30:00-04:00",
+    "speaker_ids": [245],
+    "session_location_name": "Salon C",
+    "session_tags": [34, 35, 37, 24, 36],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 316,
+    "description": "In 2015, two years after its initial open source release, React took the position formerly held by Angular as the darling of the web. It's used on some of the biggest sites in the world, such as Facebook, WhatsApp, Messenger, Instagram, Netflix, Airbnb, Uber, NFL, Dropbox, Asana, Atlassian, Khan Academy, Flipkart, Imgur, Reddit, Paypal, WalMart, WordPress, Wix, SquareSpace, etc.\r\n\r\nLet's be clear though: any UI you can build with React you can also build without React. React's value proposition is that it simplifies your UI code, making it easier to build and maintain: it is declarative, component-based, uses one-way data flow, and has an API that most developers can become productive with in an afternoon. The people at Facebook have had so much success with it on the web that they thought - hey, wouldn't it be great if we could write native mobile apps like this too? And so React Native was born, and the mobile development landscape will never look the same again.",
+    "name": "React Native: A Better Way to Do Mobile (For Both Managers and Engineers)",
+    "start_time": "2016-04-11T13:30:00-04:00",
+    "end_time": "2016-04-11T14:30:00-04:00",
+    "speaker_ids": [236],
+    "session_location_name": "Salon D",
+    "session_tags": [37, 30, 62],
+    "track": "Mobile",
+    "duration": 60
+  }, {
+    "id": 315,
+    "description": "Polymer is a new kind of library, built atop Web Components. This talk will cover the benefits of using Web Components to create your own encapsulated, custom HTML elements. You'll also learn how to use sets of ready-made Polymer elements to provide common functionality to your own web apps.",
+    "name": "An Introduction to Web Components and Polymer",
+    "start_time": "2016-04-12T10:15:00-04:00",
+    "end_time": "2016-04-12T11:15:00-04:00",
+    "speaker_ids": [251],
+    "session_location_name": "Salon A",
+    "session_tags": [28, 43, 41, 42],
+    "track": "Frameworks",
+    "duration": 60
+  }, {
+    "id": 307,
+    "description": "The high-profile attacks and data-breaches of the last few years have shown us the importance of securing our software. While it is good that we are seeing more tools that can analyze systems for vulnerabilities, this does not help the programmer write secure code in the first place. To prevent security from becoming a bottleneck--and expensive security mistakes from becoming increasingly probable--we need to look to techniques that allow us to secure software by construction. \r\n\r\nThis talk has two parts. First, I will present technical ideas from research, including my own, that help secure software by construction. Even though these are reasonable ideas, however, the gap between academia and industry often prevents these ideas from becoming realized in practice. Second, I will discuss what prevents longer-term security solutions from being commercialized, how we started the Cybersecurity Factory accelerator bridge the research\/industry gap, and how we can work together to address the issues that remain.",
+    "name": "Securing Software by Construction",
+    "start_time": "2016-04-11T14:45:00-04:00",
+    "end_time": "2016-04-11T15:45:00-04:00",
+    "speaker_ids": [162],
+    "session_location_name": "Salon D",
+    "session_tags": [64, 24],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 304,
+    "description": "Rust is a systems programming language from Mozilla that focuses on safety, speed, and concurrency.  Rust reached 1.0 a year ago, and so there's a question everyone is asking: how has 1.0 tested in production? Is the language \"ready\" yet? In this talk, Steve will give an overview of Rust's value proposition, focusing on examples and anecdotes from companies using Rust in production today.",
+    "name": "Rust in Production",
+    "start_time": "2016-04-12T11:30:00-04:00",
+    "end_time": "2016-04-12T12:30:00-04:00",
+    "speaker_ids": [281],
+    "session_location_name": "Salon D",
+    "session_tags": [24],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 303,
+    "description": "To take full advantage of Java 8's support for lambdas and interfaces with concrete methods, a lot is changing behind the scenes of the Scala 2.12 compiler!\r\n\r\nAt the language level, Scala has always had first-class support for lambdas, of course, and with Java 8's invokedynamic machinery we can now compile them to more compact and efficient bytecode. We also interoperate fully with Java's modeling of functions as Single Abstract Method types  (aka functional interfaces). \r\n\r\nThe other advantage of compiling to Java 8 bytecode is a more direct encoding of traits. The invokedynamic instruction plays an interesting role here as well, surprisingly!\r\n\r\nWhile we were revamping the back-end, we've also replaced the old optimizer with a much more robust and powerful one, based on Miguel Garcia's earlier work.\r\n\r\nFinally, I'll talk about the crucial ingredients of my kind of functional programming language (beyond nice syntax for functions). Thrilling slide titles will include: \"val is your friend\", \"everything is an expression\", \"patterns for destruction\", \"how I stopped worrying about variance\".",
+    "name": "Scala 2.12 & Java 8: More Fun Together!",
+    "start_time": "2016-04-11T14:45:00-04:00",
+    "end_time": "2016-04-11T15:45:00-04:00",
+    "speaker_ids": [168],
+    "session_location_name": "Salon B",
+    "session_tags": [35, 59, 24, 33],
+    "track": "Languages",
+    "duration": 60
+  }, {
+    "id": 302,
+    "description": "How would you like 2 extra hours of your time back every week? All mobile app developers face similar workflows as they work to upload an app to the App & Play Store. Many of these processes are currently done manually, but why not automate them? Fabric's set of developer tools, collectively called fastlane, makes building, testing, and releasing your app faster, reproducible and less troublesome, leaving developers more time to focus on feature code and not deployment! Learn how you can automate the tedious tasks to generate release notes, screenshots and push your final submission straight to the iTunesConnect or Google Play portal effortlessly from your command line with a powerful open source tool.",
+    "name": "Supercharging Your Mobile App Release with Fastlane",
+    "start_time": "2016-04-11T14:45:00-04:00",
+    "end_time": "2016-04-11T15:45:00-04:00",
+    "speaker_ids": [300],
+    "session_location_name": "Salon A",
+    "session_tags": [30, 66],
+    "track": "Mobile",
+    "duration": 60
+  }, {
+    "id": 299,
+    "description": "An agile enterprise increases value through effective execution and delivery in a timely and reactive manner. Such organizations do this by streamlining the flow of information, ideas, decision making, and work throughout the overall business process all the while improving the quality of the process and business outcomes. \r\n\r\nThis talk describes, step-by-step, how to evolve from today\u2019s vision of agile software development to a truly disciplined agile enterprise. It briefly examines the state of mainstream agile software development and argues for the need for a more disciplined approach to agile delivery that provides a solid foundation from which to scale. It then explores what it means to scale disciplined agile strategies tactically at the project\/product level and strategically across your IT organization as a whole. Your disciplined agile IT strategy, along with a lean business strategy, are key enablers of a full-fledged disciplined agile enterprise. The talk ends with advice for how to make this challenging organizational transition.\r\n\r\n<strong>You will learn:<\/strong>\r\n\r\n> How agile delivery works beginning to end with enterprise-class organizations\r\n\r\n> Understand what it means to tactically scale agile delivery \r\n\r\n> Understand what it means to strategically scale agile techniques across your IT department",
+    "name": "Agility at Scale: Tactical and Strategic Approaches",
+    "start_time": "2016-04-12T13:30:00-04:00",
+    "end_time": "2016-04-12T14:30:00-04:00",
+    "speaker_ids": [270],
+    "session_location_name": "Salon B",
+    "session_tags": [29, 38],
+    "track": "Agile",
+    "duration": 60
+  }, {
+    "id": 298,
+    "description": "This talk will begin by briefly examining what it means for infrastructure to be represented as code. We'll examine some fundamental software components required for automating infrastructure using code such as GPG, package managers, SSL, and more. We'll examine some interesting failure cases for these tools and how these shortcomings might make it impossible to truly represent infrastructure as code, for now.\r\n\r\nThis talk will highlight areas where people interested in getting involved in open source projects could make an impact that would benefit the infrastructure as code movement. This talk will also provide some food for thought for infrastructure engineers as they design the next generation of tools.",
+    "name": "Infrastructure As Code Might Be Literally Impossible",
+    "start_time": "2016-04-12T16:00:00-04:00",
+    "end_time": "2016-04-12T17:00:00-04:00",
+    "speaker_ids": [185],
+    "session_location_name": "Salon B",
+    "session_tags": [50, 26],
+    "track": "Infrastructure",
+    "duration": 60
+  }, {
+    "id": 296,
+    "description": "Good engineers write good code, but the best engineers raise the skills of their junior colleagues, too. If you're a senior engineer, you must learn to mentor new hires. Especially if you\u2019re committed to diversity: mentorship is critical to the careers of women and minorities in tech. I have failed at mentoring, then succeeded. I distinguished five warning signs that a mentorship will fail, and five prerequisites that make a mentorship very likely to succeed. Learn from me, and march to mentorship triumph.",
+    "name": "Dodge Disasters and March to Triumph as a Mentor",
+    "start_time": "2016-04-11T14:45:00-04:00",
+    "end_time": "2016-04-11T15:45:00-04:00",
+    "speaker_ids": [166],
+    "session_location_name": "Salon E",
+    "session_tags": [44, 31, 56],
+    "track": "Management",
+    "duration": 60
+  }, {
+    "id": 295,
+    "description": "Velocity is one of the most common metrics used (and misused) on agile projects. Velocity is simply a measurement of speed in a given direction; the rate at which a team is delivering toward a product release. As with a vehicle en route to a particular destination, increasing the speed may appear to ensure a timely arrival. However, that assumption is dangerous because it ignores the risks with higher speeds. And while it\u2019s easy to increase a vehicle\u2019s speed, where exactly is the accelerator on a software team?\r\n\r\nDoc walks us through the Hawthorne Effect and Goodhart\u2019s Law to explain why setting goals for velocity can actually hurt a project's chances. Take a look at what can negatively impact velocity, ways to stabilize fluctuating velocity, and methods to improve velocity without the risks. Leave with a toolkit of additional metrics that, coupled with velocity, give a better view of the project's overall health.",
+    "name": "Agile Metrics: Velocity is NOT the Goal",
+    "start_time": "2016-04-12T16:00:00-04:00",
+    "end_time": "2016-04-12T17:00:00-04:00",
+    "speaker_ids": [263],
+    "session_location_name": "Salon E",
+    "session_tags": [29],
+    "track": "Agile",
+    "duration": 60
+  }, {
+    "id": 285,
+    "description": "Ever wonder how companies like Zappos get started?  And why some startups are successful when most fail?  From the very start, smart entrepreneurs reduce uncertainty and make educated decisions through a process of focused and iterative \"de-risking.\" Learn how to apply these techniques on your idea.\r\n\r\nYou'll learn:\r\n\r\n<ul>\r\n<li>The 5 most common mistakes business people, technologists, scientists, and entrepreneurs make when first starting and how to avoid them.<\/li>\r\n<li>How to to identify critical assumptions that can kill your idea.<\/li>\r\n<li>When to start speaking with target customers. (Hint: it's sooner than you think).<\/li>\r\n<li>The top 4 unexpected reasons ideas and companies fail<\/li>\r\n<li>5 great experiments you can use to de-risk your biggest assumptions.<\/li>\r\n<li>7 critical questions to ask early during meetings.<\/li>\r\n<li>3 things you never want to say to or ask an investor.<\/li>\r\n<li>How getting capital investment is different than applying for a grant and how to be successful.<\/li>\r\n<\/ul>",
+    "name": "From Idea to Market: De-risking Critical Assumptions",
+    "start_time": "2016-04-11T16:00:00-04:00",
+    "end_time": "2016-04-11T17:00:00-04:00",
+    "speaker_ids": [283],
+    "session_location_name": "Salon E",
+    "session_tags": [44, 31],
+    "track": "Management",
+    "duration": 60
+  }, {
+    "id": 262,
+    "description": "So you need to store data in your mobile application? Great, now you need to work with SQLite. Writing SQL is great fun if you enjoy thinking about mapping your objects to a relational store over and over and over. But what if there was another solution? One that allowed you to work with objects and store them as such with a powerful query system. No transformations back and forth to a relational store. Well, you\u2019re in luck, one does exist: Realm. Realm is a mobile object (MVCC) database that can do all of these things and more. In this session learn how you can rid yourself of SQL, SQLite and its binding chains so you can harness the power and speed of working with native objects in Realm.  ",
+    "name": "Realm - a New, Easy to Use Mobile Database & Object Framework",
+    "start_time": "2016-04-11T10:15:00-04:00",
+    "end_time": "2016-04-11T11:15:00-04:00",
+    "speaker_ids": [260],
+    "session_location_name": "Salon A",
+    "session_tags": [30, 63],
+    "track": "Mobile",
+    "duration": 60
+  }, {
+    "id": 212,
+    "description": "When you think of hiring for your team, does the paperwork overwhelm you? Are you concerned about the number of interviews you seem to need to make a great decision? Do you ever have trouble making a decision, to know if this candidate is right for you --the team, the project, and the organization? You know the cost of hiring people is high, and the cost of not getting the right person is even higher.\r\n\r\nYou can apply agile approaches to your hiring, iterating on everything. You can get feedback as you go, and involve the entire team, including the sourcing. You can teach your recruiters to use a kanban board to track candidates and where they are in the pipeline. You can iterate on the job description (and job ad) based on what you see in candidates. When you involve the entire team, you can create questions and auditions that work for you. You can identify candidates who fit your culture and those who don't. \r\n\r\nThis session is a timeboxed interactive workshop. Be prepared to experiment and learn. Let\u2019s make your hiring more agile.",
+    "name": "Agile Hiring: It's A Team Sport",
+    "start_time": "2016-04-11T13:30:00-04:00",
+    "end_time": "2016-04-11T14:30:00-04:00",
+    "speaker_ids": [238],
+    "session_location_name": "Salon B",
+    "session_tags": [29, 38],
+    "track": "Agile",
+    "duration": 60
+  }, {
+    "id": 172,
+    "description": "Comcast\u2019s X1 Voice Remote is in millions of homes, and the feedback has been overwhelmingly positive. Users appreciate the high utility and accuracy of the voice remote. As a product manager, it is Jeanine\u2019s responsibility to understand customers\u2019 needs, position the product against competitors, and ensure aligns with the company\u2019s goals. She will give insight into all of these areas, with an extra emphasis on the understanding customers\u2019 needs and how that shapes the product roadmap.",
+    "name": "Breaking New Ground with Product Development",
+    "start_time": "2016-04-11T10:15:00-04:00",
+    "end_time": "2016-04-11T11:15:00-04:00",
+    "speaker_ids": [170],
+    "session_location_name": "Salon E",
+    "session_tags": [44, 31, 45],
+    "track": "Management",
+    "duration": 60
+  }],
+  "speakers": [{
+    "id": 493,
+    "first_name": "Adam",
+    "last_name": "Leventhal",
+    "bio": "Adam Leventhal was most recently CTO of Delphix where he led the product and development team building out their Data as a Service offerings. He started his career in the Solaris Kernel Group where he co-authored DTrace. In 2006 Adam founded the team that built the ZFS Storage Appliance at Sun and Oracle where he focused on flash, then an emerging storage tier.",
+    "position": "Co-Creator, DTrace",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/04\/headshot.jpeg",
+    "session_ids": [421]
+  }, {
+    "id": 428,
+    "first_name": "Kymberlee",
+    "last_name": "Price",
+    "bio": "With over 12 years experience in product security, Kymberlee Price pioneered the first security researcher outreach program in the software industry, was a principal investigator in the Zotob criminal investigation, and analyzed APT's at Microsoft. She then spent 4 years investigating product vulnerabilities in BlackBerry's Security Response Team. Today she is responsible for directing the efforts of Bugcrowd's global red team of more than 24,000 security researchers, optimizing vulnerability discovery and reporting for customers and researchers, and aiding 'the Crowd' with ongoing skill development and overall success in Bugcrowd programs. Ms. Price holds a Bachelor of Science degree in Behavioral Psychology and a Bachelor of Science degree in Public Health Education. She has previously spoken at a number of conferences, including Black Hat USA, RSA, Kaspersky Security Analyst Summit, Metricon, and Derbycon. ",
+    "position": "Senior Director of Researcher Operations, Bugcrowd",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/Screen-Shot-2016-02-25-at-10.43.23-AM.png",
+    "session_ids": [430]
+  }, {
+    "id": 417,
+    "first_name": "David",
+    "last_name": "Ferrucci",
+    "bio": "David Ferrucci is an award-winning AI researcher. He worked at IBM Research from 1995-2012 where he built and led a team of over 40 researchers and software engineers specializing in Artificial Intelligence (AI). In 2007, Dr. Ferrucci personally took on the Jeopardy Challenge \u2013 to create an intelligent computer system that could rival human champions at the game of Jeopardy. <a target=\"_blank\" href=\"http:\/\/www.nytimes.com\/2010\/06\/20\/magazine\/20Computer-t.html?WT.mc_id=MG-SM-E-FB-SM-LIN-WII-061610-NYT-NA&WT.mc_ev=click\">Watson<\/a>, the computer system he and his team built, bested the highest-ranked Jeopardy champions of all time on <a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=P18EdAKuC1U\">national television<\/a> in 2011. Now considered a landmark in AI, Watson delivered amazing results that out-performed all expectations, demonstrating world-class performance at a task previously considered well beyond the capabilities of any computer system. His work transformed IBM\u2019s technical and strategic directions and the perceptions of AI and in business forever. Prior to Watson, Dr. Ferrucci was the chief architect and technical lead for <a target=\"_blank\" href=\"http:\/\/uima.apache.org\/\">UIMA<\/a>; a software architecture, framework and standard for unstructured information processing. UIMA provided the foundation for integrating a wide range of text and multi-modal analytics for capturing insights of big-data. UIMA became in open-source APACHE project and is in wide use around the world. In 2011, Dr. Ferrucci was awarded the title of <a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=cmz5fB4fk-0\">IBM Fellow<\/a> and Vice President and has won numerous awards for his work on UIMA and Watson, including the <a target=\"_blank\" href=\"http:\/\/investor.cmegroup.com\/investor-relations\/releasedetail.cfm?ReleaseID=515988\">Chicago Mercantile Exchange\u2019s Innovation Award 2010<\/a> and Watson\u2019s AAAI Feigenbaum Prize 2013.  Dr. Ferrucci deeply believes the big advances in Artificial Intelligence will require more than big-data; they will require the tight integration of human cognition, knowledge representation and statistical machine learning. <a target=\"_blank\" href=\"http:\/\/bits.blogs.nytimes.com\/2013\/05\/06\/david-ferrucci-life-after-watson\/?_php=true&_type=blogs&_r=0\">In 2012 he joined<\/a> <a target=\"_blank\" href=\"http:\/\/www.bwater.com\/\">Bridgewater<\/a> as an AI Researcher and Senior Technologist where he is exploring ways to combine learning and semantic technologies to accelerate the discovery, application, and continuous refinement of collaborative intelligent systems in domains including people analytics, enterprise management and markets.",
+    "position": "Computer Scientist and Watson Co-Creator",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/9-N-JH-TEDx-David-Ferrucci-WEB-1024x682.png",
+    "session_ids": [420]
+  }, {
+    "id": 405,
+    "first_name": "Leigh",
+    "last_name": "Ann",
+    "bio": "Leigh Ann Shaffner is the Executive Director, Talent Management for the Technology + Product team at Comcast.  She is currently leading an effort to reimagine and transform the Performance Management process to a continuous feedback based model - incorporating agile best practices to drive employee development and business results.  Prior to Comcast, Ms. Shaffner was the HR Lead supporting Spotify\u2019s expansion into new markets such as Mexico, Brazil, and Russia.  Ms. Shaffner worked with Spotify\u2019s smaller markets to enhance global benefits and drive improvements in onboarding as well as work on Spotify\u2019s Employer Branding.  While at Razorfish\/Digitas LBI, Ms Shaffner supported numerous acquisitions, mergers, and restructuring efforts with an emphasis on talent mobility.  She was deployed internationally to support offices in Germany, China, London and Costa Rica and also held local HR\/TA leadership roles in Philadelphia.  Ms. Shaffner started her career in management consulting at Booz Allen Hamilton and Accenture.",
+    "position": "Executive Director of Talent Management, Comcast",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/LA.jpg",
+    "session_ids": [424]
+  }, {
+    "id": 406,
+    "first_name": "Andy",
+    "last_name": "Webber",
+    "bio": "Andy believes that coding is like having a magical power that can be used to solve the world\u2019s problems. Along with learning everything from the CPU to the application during his computer engineering studies at UMD, he\u2019s been a C++ programmer for over 15 years. As a Trading Systems Developer at SIG, Andy helps write the infrastructure that keeps SIG\u2019s real time systems in the market. A Philly transplant and now proud local, Andy\u2019s most unique claim to fame is his performance of the Lord of the Rings soundtrack at the Mann Center last summer.",
+    "position": "Trading Systems Developer, Susquehanna International Group, LLP",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/andy.png",
+    "session_ids": [408]
+  }, {
+    "id": 396,
+    "first_name": "Bryan",
+    "last_name": "Helmkamp",
+    "bio": "Bryan Helmkamp is the founder and CEO of <a target=\"_blank\" href=\"https:\/\/codeclimate.com\/\">Code Climate<\/a>, where he helps software development teams improve their code quality with static analysis. In New York, he was CTO at Efficiency 2.0, a company focused on using science to help people lower the energy use, and also an engineer at Gilt Groupe. He has given popular talks on software engineering principles and practices around the world. Bryan co-authored the book Service Oriented Design with Ruby and also the RSpec Book.",
+    "position": "CEO, Code Climate",
+    "twitter": "https:\/\/twitter.com\/brynary",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/Bryan_ETE.jpg",
+    "session_ids": [438]
+  }, {
+    "id": 392,
+    "first_name": "Susan",
+    "last_name": "Potter",
+    "bio": "Susan is a distributed systems engineer straddling technical operations and engineering helping make data and service infrastructure operationally manageable at scale.\r\n\r\nOver the last seventeen years she has worked on algorithmic trading systems, market data software, multi-tenant service oriented architecture, and continuous delivery.\r\n",
+    "position": "Distributed Systems Engineer",
+    "twitter": "https:\/\/twitter.com\/SusanPotter",
+    "web": "http:\/\/susanpotter.net\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/Susan.jpg",
+    "session_ids": [391]
+  }, {
+    "id": 388,
+    "first_name": "Jonathan",
+    "last_name": "Lipps",
+    "bio": "Jonathan Lipps has been making things out of code as long as he can remember. He currently works as Director of Engineering at Sauce Labs, leading a team of open source and front end developers to improve the web and mobile testing ecosystem. Jonathan is the architect and project lead for Appium, the open-source, cross-platform mobile automation framework written in Node.js. He has worked as a programmer in tech startups for over a decade, but is also passionate about academic discussion. Jonathan has master's degrees in philosophy and linguistics, from Stanford and Oxford respectively. Living in San Francisco, he's an avid rock climber, yogi, musician, and writer on topics he considers vital, like the relationship of technology to what it means to be human.",
+    "position": "Director of Engineering, Sauce Labs",
+    "twitter": "https:\/\/twitter.com\/jlipps",
+    "web": "https:\/\/jonathanlipps.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/Johnathan_Lipps.jpg",
+    "session_ids": [389]
+  }, {
+    "id": 383,
+    "first_name": "Jason",
+    "last_name": "Grout",
+    "bio": "Jason Grout works at Bloomberg building software useful in scientific research.  He works on the <a target=\"_blank\" href=\"http:\/\/ipython.org\/\">IPython<\/a> and <a target=\"_blank\" href=\"http:\/\/jupyter.org\/\">Jupyter<\/a> open-source projects and serves on their steering council, and has also worked on the open-source <a target=\"_blank\" href=\"http:\/\/www.sagemath.org\/\">Sage<\/a> mathematical software system. Before joining Bloomberg, Jason was an assistant professor of mathematics at Drake University. Jason earned his PhD in mathematics from Brigham Young University.\r\n",
+    "position": "Jupyter Core Developer, Bloomberg",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/Jason-Grout.jpg",
+    "session_ids": [394]
+  }, {
+    "id": 381,
+    "first_name": "Srinivas",
+    "last_name": "Palthepu",
+    "bio": "Srinivas (Srini) Palthepu (<a target=\"_blank\" href=\"http:\/\/twitter.com\/srinipalthepu\">@SriniPalthepu<\/a>) has over 20 years of combined IT & Software Engineering experience in various roles including Research & Development, Production Delivery & Execution, Architecture and Strategy. He started Big Data journey before even the term Big Data was coined, at a Chicago Startup Company recently acquired By IBM. In his current role at Capital One, Srini is leading Capital One's new digital transformation of Partnership business with Big Data and Fast Data technologies. He gave talks  at several Big Data conferences such as Big Data TechCon, Chicago, and BI Innovation Summit. Srini is also co-organizer of Chicago Flink User Group Meetup. He has a Ph.D in Computer Science from Universiy of Saskatchewan.",
+    "position": "Senior Manager Big Data Engineering, CapitalOne",
+    "twitter": "http:\/\/twitter.com\/srinipalthepu",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/Screen-Shot-2016-02-02-at-2.54.00-PM.png",
+    "session_ids": [425]
+  }, {
+    "id": 377,
+    "first_name": "Don",
+    "last_name": "Coleman",
+    "bio": "Don is a software developer who enjoys hacking with phones, Arduino and other hardware. As the Director of Consulting for Chariot Solutions he works with teams and clients to reinvent their existing technology and lay the groundwork for the future. Don is the co-author of <a href=\"http:\/\/www.amazon.com\/Make-Bluetooth-Projects-Raspberry-Smartphones\/dp\/1457187094\" target=\"_blank\">Make: Bluetooth<\/a> and <a href=\"http:\/\/www.amazon.com\/Beginning-NFC-Communication-Arduino-PhoneGap-ebook\/dp\/B00HV1GP3W\" target=\"_blank\">Beginning NFC<\/a>.",
+    "position": "Co-Author Make: Bluetooth and Beginning NFC",
+    "twitter": "http:\/\/twitter.com\/doncoleman",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/doncoleman.jpg",
+    "session_ids": [414]
+  }, {
+    "id": 374,
+    "first_name": "Ryan",
+    "last_name": "Brush",
+    "bio": "Ryan Brush is a software engineer at Cerner, where he works on Hadoop-based systems to bring together and make sense of the world's health data. He dabbles in writing, having contributed chapters to <a target=\"_blank\" href=\"http:\/\/shop.oreilly.com\/product\/0636920033448.do\">Hadoop: The Definitive Guide<\/a> and <a target=\"_blank\" href=\"http:\/\/www.amazon.com\/Things-Every-Programmer-Should-Know\/dp\/0596809484\">97 Things Every Programmer Should Know<\/a>. He is also the author of Clara, an open-source rule engine in Clojure. Ryan's recent focus is on ways to declaratively express domain expertise and apply it at scale.",
+    "position": "Engineer, Cerner",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Ryan_Brush.jpg",
+    "session_ids": [376]
+  }, {
+    "id": 371,
+    "first_name": "Kelsey",
+    "last_name": "Hightower",
+    "bio": "Kelsey has worn every hat possible throughout his career in tech and enjoys leadership roles focused on making things happen and shipping software. Kelsey is a strong open source advocate focused on building simple tools that make people smile. When he is not slinging Go code you can catch him giving technical workshops covering everything from Programming, System Administration, and his favorite Linux distro of the month (CoreOS).",
+    "position": "Staff Developer Advocate, Google",
+    "twitter": "http:\/\/twitter.com\/kelseyhightower",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Kelsey_Hightower.jpg",
+    "session_ids": [409]
+  }, {
+    "id": 355,
+    "first_name": "Diptanu",
+    "last_name": "Choudhury",
+    "bio": "Diptanu is a Senior Engineer at HashiCorp, and works on large-scale distributed systems, cluster schedulers, service discovery and highly available and high throughput systems on the public cloud. He is a core committer to the Nomad cluster scheduler which has a parallel and distributed scheduler and support heterogeneous virtualized workloads. \r\n\r\nPrior to HashiCorp, Diptanu worked in the Cloud Platform group at Netflix, where he worked on the core platform infrastructure that powered the Microservices infrastructure of Netflix. He worked on Apache Mesos and wrote a cluster scheduler for running clusters of Docker containers on AWS, and also contributed to various reactive IPC and service discovery infrastructure projects.",
+    "position": "Senior Engineer, HashiCorp",
+    "twitter": "https:\/\/twitter.com\/diptanu",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Diptanu_Choudhury.jpg",
+    "session_ids": [366]
+  }, {
+    "id": 352,
+    "first_name": "Liv",
+    "last_name": "Erickson",
+    "bio": "Liv Erickson is a Virtual and Augmented Reality Developer Evangelist at Microsoft based out of the San Francisco Bay Area. She is the creator and host of Just A\/VR Show, a web show for aspiring VR and AR developers, developer of KittenVR, and the author of The Matrix is My Office blog. Liv is passionate about making immersive technologies accessible to everyone, and teaching new developers how to create their own VR & AR experiences. ",
+    "position": "Virtual and Augmented Reality Developer Evangelist, Microsoft",
+    "twitter": "https:\/\/twitter.com\/misslivirose",
+    "web": "https:\/\/livierickson.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Liv_Erickson.jpg",
+    "session_ids": [365]
+  }, {
+    "id": 346,
+    "first_name": "James",
+    "last_name": "Roper",
+    "bio": "James is an Australian open source developer working as the tech lead of Lagom and Play Framework at Lightbend. His passion is to see reactive software development adopted in the enterprise. In the past he was worked on web scale social networks at Holzbrinck Publishing Group, SaaS software development tools at Atlassian, and in a range of industries from manufacturing to financial services at CSC. When he\u2019s not hacking on Lagom or other open source projects, he loves playing piano and guitar, and also likes growing his own vegetables.\r\n\r\n",
+    "position": "Core Team, Play Framework",
+    "twitter": "http:\/\/twitter.com\/jroper",
+    "web": "https:\/\/jazzy.id.au\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/James_Roper.jpg",
+    "session_ids": [342]
+  }, {
+    "id": 343,
+    "first_name": "Daniel",
+    "last_name": "Steinberg",
+    "bio": "Daniel is the author of the best selling books <a target=\"_blank\" href=\"http:\/\/editorscut.com\/Books\/SwiftKickstart\/bookPage.html\">A Swift Kickstart<\/a> and <a target=\"_blank\" href=\"https:\/\/itunes.apple.com\/us\/book\/developing-ios-7-apps-for\/id792572211?mt=13\">Developing iOS 7 Apps for iPad and iPhone<\/a> (the official companion book to the popular iTunes U series from Stanford University).\r\n\r\nHe has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7.\r\n\r\nDaniel presents iPhone, Cocoa, and Swift training and consults through his company <a target=\"blank\" href=\"http:\/\/www.dimsumthinking.com\/\">Dim Sum Thinking.<\/a> He is the co-host of the <a target=\"_blank\" href=\"http:\/\/www.tinychallenges.com\/show\">Tiny Challenges Podcast<\/a>. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking or hanging out with his wife and daughter.\r\n\r\nInformation on his <a target=\"_blank\" href=\"http:\/\/editorscut.com\/Books\/index.html\">books<\/a> is available on the <a target=\"_blank\" href=\"http:\/\/editorscut.com\/\">Editors Cut<\/a> website. Details on his <a target=\"_blank\" href=\"http:\/\/dimsumthinking.com\/Services\/Training\/index.html\">training<\/a>, and <a target=\"_blank\" href=\"http:\/\/dimsumthinking.com\/Services\/Speaking\/index.html\">speaking<\/a> is on the <a target=\"_blank\" href=\"http:\/\/dimsumthinking.com\/\">Dim Sum Thinking website.<\/a>",
+    "position": "Author, A Swift Kickstart",
+    "twitter": "twitter.com\/dimsumthinking",
+    "web": "http:\/\/dimsumthinking.com\/index.html",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Daniel_Steinberg.jpg",
+    "session_ids": [344]
+  }, {
+    "id": 333,
+    "first_name": "Mike",
+    "last_name": "Hartington",
+    "bio": "As Ionic\u2019s Developer Advocate, Mike helps developers while they\u2019re building their apps and also frequently speak and write about Ionic. In his spare time, he\u2019s a hybrid app maker, occasional musician, and craft beer lover. Based in the San Francisco Bay Area.",
+    "position": "Developer Advocate, Ionic",
+    "twitter": "http:\/\/twitter.com\/mhartington",
+    "web": "http:\/\/mhartington.io",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Mike_Hartington.jpg",
+    "session_ids": [335]
+  }, {
+    "id": 330,
+    "first_name": "Evan",
+    "last_name": "Chan",
+    "bio": "Evan loves to design, build, and improve bleeding edge distributed data and backend systems using the latest in open source technologies. He is the creator of the FiloDB open-source distributed analytical database, as well as the Spark Job Server. He has led the design and implementation of multiple big data platforms based on Storm, Spark, Kafka, Cassandra, and Scala\/Akka, including a columnar real-time distributed query engine. He is an active contributor to the Apache Spark project, and a Datastax Cassandra MVP.  He has built Spark applications since Spark 0.8, Cassandra since 0.6. He is a big believer in GitHub, open source, and meetups, and have given talks at various conferences including Spark Summit, Cassandra Summit, FOSS4G, and Scala Days. He has a Bachelors and Masters of Electrical Engineering, with distinction, from Stanford University.  In his spare time he is a family man, photographer, foodie, avid Oakland Athletics fan, and committed follower of Jesus.",
+    "position": "Creator, FiloDB",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/DSC_0753.jpg",
+    "session_ids": [398]
+  }, {
+    "id": 326,
+    "first_name": "Ewen",
+    "last_name": "Cheslack-Postava",
+    "bio": "Ewen Cheslack-Postava is a Kafka committer and engineer at Confluent building a stream data platform based on Apache Kafka to help organizations reliably and robustly capture and leverage all their real-time data. He received his PhD from Stanford University where he developed Sirikata, an open source system for massive virtual environments. His dissertation defined a novel type of spatial query giving significantly improved visual fidelity, and described a system for efficiently processing these queries at scale.",
+    "position": "Engineer, Confluent",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Ewen_CheslackPostava.jpg",
+    "session_ids": [329]
+  }, {
+    "id": 311,
+    "first_name": "Alex",
+    "last_name": "Miller",
+    "bio": "Alex Miller works on maintaining Clojure and supporting the Clojure community at Cognitect. Last year he published <em><a target=\"_blank\" href=\"https:\/\/pragprog.com\/book\/vmclojeco\/clojure-applied\">Clojure Applied<\/a> on Pragmatic Press. Alex is also the founder of the Strange Loop, Clojure\/West, and Lambda Jam conferences. ",
+    "position": "Co-Author, Clojure Applied",
+    "twitter": "http:\/\/twitter.com\/puredanger",
+    "web": "http:\/\/tech.puredanger.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Alex_Miller.jpg",
+    "session_ids": [399]
+  }, {
+    "id": 308,
+    "first_name": "Dmitri",
+    "last_name": "Sotnikov",
+    "bio": "Dmitri is the creator of the <a target=\"_blank\" href=\"http:\/\/www.luminusweb.net\/\">Luminus framework<\/a> and the author of <a target=\"_blank\" href=\"http:\/\/www.amazon.com\/gp\/product\/1680500821\">Web Development with Clojure<\/a>.\r\nHe works at the University Health Network where he develops applications to help improve patient care.\r\nDmitri is an active member of the Clojure web development community and has authored a number of <a target=\"_blank\" href=\"https:\/\/github.com\/yogthos\">open source projects<\/a>.\r\nHe blogs at <a target=\"_blank\" href=\"http:\/\/yogthos.net\">yogthos.net<\/a>, and can also be found on twitter as <a target=\"_blank\" href=\"https:\/\/twitter.com\/yogthos\">@yogthos<\/a>.",
+    "position": "Author, Web Development with Clojure: Build Bulletproof Web Apps with Less Code",
+    "twitter": "http:\/\/twitter.com\/yogthos",
+    "web": "http:\/\/yogthos.net",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Dmitri_Sotnikov.jpg",
+    "session_ids": [402]
+  }, {
+    "id": 300,
+    "first_name": "Andrea",
+    "last_name": "Falcone",
+    "bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. ",
+    "position": "Senior Software Engineer, Twitter",
+    "twitter": "https:\/\/twitter.com\/asfalcone",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/Andrea_Falcone.jpg",
+    "session_ids": [302]
+  }, {
+    "id": 291,
+    "first_name": "Ari",
+    "last_name": "Lerner",
+    "bio": "Ari Lerner hails from San Francisco and professionally plays around with tech stuff. As an author and teacher, he cofounded fullstack.io where he has written several books, including ng-book 1 & 2, ng-newsletter.  On a technical side he spends his time on on various (main & side) projects in Python, Angular, Lua, Clojure, and Objective-C. After spending a lot of time on the road as a professional comedian, he\u2019s come to terms with the fact he\u2019s not that funny, but he\u2019ll try.",
+    "position": "Author, ng-book 1 & 2, ng-newsletter",
+    "twitter": "https:\/\/twitter.com\/auser",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Ari_Lerner.jpg",
+    "session_ids": [404]
+  }, {
+    "id": 289,
+    "first_name": "Sarah",
+    "last_name": "Mei",
+    "bio": "Sarah Mei is the Chief Consultant at DevMynd in San Francisco, and has been writing software since before the internet had cats. She teaches object-oriented design with Sandi Metz, is an expert pair programmer, and speaks and writes about code, architecture, and teams. Sarah is also well-known for her non-profit work, including currently with Ruby Central, RailsBridge, Bridge Foundry, Ruby Together, and Long Distance Voter. When she\u2019s not live-tweeting action movies, Sarah works with teams to improve their processes around code and, inevitably, people.",
+    "position": "Co-founder, RailsBridge; Chief Consultant, DevMynd",
+    "twitter": "https:\/\/twitter.com\/sarahmei",
+    "web": "http:\/\/www.sarahmei.com\/blog\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Sarah_Mei.jpg",
+    "session_ids": [332]
+  }, {
+    "id": 286,
+    "first_name": "Brandon",
+    "last_name": "Philips",
+    "bio": "Brandon Philips is helping to build modern Linux server infrastructure at CoreOS as CTO. Prior to CoreOS, he worked at Rackspace hacking on cloud monitoring and was a Linux kernel developer at SUSE. As a graduate of Oregon State's Open Source Lab he is passionate about open source technologies.",
+    "position": "CTO, CoreOS",
+    "twitter": "https:\/\/twitter.com\/brandonphilips",
+    "web": "http:\/\/www.ifup.org\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Brandon_Philips.jpg",
+    "session_ids": [426]
+  }, {
+    "id": 283,
+    "first_name": "Steve",
+    "last_name": "Barsh",
+    "bio": "Steve Barsh is Chief Innovation Officer and Managing Director - Health for Dreamit. Steve has over 30 years of experience launching, leading and building multi-national companies as well as early stage venture work. He has helped launch dozens of companies that have grown to over $600 million in value.  He has extensive experience working with entrepreneurs, scientists and physicians on rapid identification and de-risking of critical make-or-break assumptions as well as shaping those companies along with guiding their early stage venture rounds. Steve taught in the Wharton MBA program at the University of Pennsylvania and has a BS in Computer Science from the University of Michigan. He lives in Philadelphia with his wife and two children.\r\n",
+    "position": "Chief Innovation Officer, DreamIt Health",
+    "twitter": "https:\/\/twitter.com\/sbarsh",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Steve_Barsh.jpg",
+    "session_ids": [285]
+  }, {
+    "id": 281,
+    "first_name": "Steve",
+    "last_name": "Klabnik",
+    "bio": "Steve is a prolific open source contributor, member of the Rust core team, and has authored <em>Rails 4 in Action<\/em>, <em>The Rust Programming Language<\/em>, and <em>Designing Hypermedia APIs<\/em>.",
+    "position": "Rust Core Developer",
+    "twitter": "https:\/\/twitter.com\/steveklabnik",
+    "web": "http:\/\/www.steveklabnik.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Steve_Klebnick.jpg",
+    "session_ids": [304]
+  }, {
+    "id": 270,
+    "first_name": "Scott",
+    "last_name": "Ambler",
+    "bio": "Scott is a Senior Consulting Partner of Scott Ambler + Associates, working with organizations around the world to help them to improve their software processes.  He provides training, coaching, and mentoring in disciplined agile and lean strategies at both the project and organizational level. Scott is the (co)-creator of the Agile Modeling (AM), Agile Data (AD), Disciplined Agile Delivery (DAD), and Enterprise Unified Process (EUP) methodologies.  He is the (co-)author of several books, including Disciplined Agile Delivery, Refactoring Databases, Agile Modeling, Agile Database Techniques, The Object Primer 3rd Edition, and The Enterprise Unified Process.  Scott blogs regularly at <a target=\"_blank\" href=\"DisciplinedAgileDelivery.com\">DisciplinedAgileDelivery.com<\/a> and his company\u2019s home page is <a target=\"_blank\" href=\"ScottAmbler.com\">ScottAmbler.com.<\/a>",
+    "position": "Author, Disciplined Agile Delivery",
+    "twitter": "https:\/\/twitter.com\/scottwambler",
+    "web": "http:\/\/www.ambysoft.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Scott_Ambler.jpg",
+    "session_ids": [299]
+  }, {
+    "id": 268,
+    "first_name": "Heather",
+    "last_name": "Miller",
+    "bio": "Heather is a research scientist and the executive director of the Scala Center at EPFL in Lausanne, Switzerland. She recently completed her PhD in  EPFL's School of Computer and Communication Science under Professor Martin Odersky, where she contributed to the now-widespread programming language, Scala. Heather's research interests are at the intersection of data-centric distributed systems and programming languages, with a focus on transferring her research results into industrial use. \r\n\r\nShe now oversees the newly-established Scala Center, whose goal is to jointly to spearhead community open-source development on Scala, and to improve education surrounding Scala through a series of MOOCs.",
+    "position": "Executive Director, Scala Center, EPFL",
+    "twitter": "https:\/\/twitter.com\/heathercmiller",
+    "web": "http:\/\/heather.miller.am\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Heather_Miller.jpg",
+    "session_ids": [441]
+  }, {
+    "id": 266,
+    "first_name": "Sean",
+    "last_name": "Cribbs",
+    "bio": "Sean Cribbs is a distributed systems and web architecture enthusiast, currently building innovative cloud and infrastructure software at Comcast. Previously, Sean spent five years with Basho Technologies contributing to nearly every part of Riak including client libraries, CRDTs and tools. In his free time, he has ported Basho's Webmachine HTTP server toolkit from Erlang to Ruby, created a popular parser-generator for Erlang, and has contributed to many other open-source projects, including Chef, Homebrew, and Radiant CMS.",
+    "position": "Software Engineer, Comcast",
+    "twitter": "https:\/\/twitter.com\/seancribbs",
+    "web": "http:\/\/seancribbs.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Sean_Cribbs.jpg",
+    "session_ids": [380]
+  }, {
+    "id": 263,
+    "first_name": "Doc",
+    "last_name": "Norton",
+    "bio": "CEO of CTO2, Doc is passionate about working with teams to improve software delivery and building great organizations. Once a dedicated code slinger, Doc has turned his energy toward helping teams, departments, and companies work better together in the pursuit of better software. Working with a wide range of companies such as Groupon, Nationwide Insurance, and Belly, Doc has applied tenants of agile, lean, systems thinking, and servant leadership to develop highly effective cultures and drastically improve their ability to deliver valuable software and products.",
+    "position": "CEO, CTO2",
+    "twitter": "https:\/\/twitter.com\/DocOnDev",
+    "web": "http:\/\/www.docondev.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Doc_Norton.jpg",
+    "session_ids": [295]
+  }, {
+    "id": 260,
+    "first_name": "Donn",
+    "last_name": "Felker",
+    "bio": "Donn is an independent consultant with a focus on mobile and back-end server side technologies. He's the co-host of the Fragmented Podcast - an Android Developer podcast. He's a best-selling mobile development book author, international speaker and the lead instructor at Caster.IO - a bite-sized training site for Android Developers. You can learn more about him at his website - <a target=\"_blank\" href=\"www.donnfelker.com\">www.donnfelker.com<\/a> or follow him on twitter <a target=\"_blank\" href=\"http:\/\/twitter.com\/donnfelker\">@donnfelker<\/a>.",
+    "position": "Android Author & Development Expert",
+    "twitter": "https:\/\/twitter.com\/donnfelker",
+    "web": "http:\/\/www.donnfelker.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Donn_Felker.jpg",
+    "session_ids": [262]
+  }, {
+    "id": 258,
+    "first_name": "Tim",
+    "last_name": "Wagner",
+    "bio": "Dr. Wagner is the General Manager of AWS Lambda, Amazon Web Services\u2019s newest compute service that makes it easy to run code in the cloud. Prior to joining AWS, Dr. Wagner was a Director of Development for Visual Studio overseeing the C# and VB languages, diagnostic and architecture tools, and the IDE platform. He has also served on the Eclipse Foundation Board and held various open source roles. Dr. Wagner\u2019s product and research interests include massively scaled software systems, developer productivity tools, and incremental algorithms.",
+    "position": "General Manager, AWS Lambda",
+    "twitter": "https:\/\/twitter.com\/timallenwagner",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Tim_Wagner.jpg",
+    "session_ids": [415]
+  }, {
+    "id": 251,
+    "first_name": "Jeff",
+    "last_name": "Posnick",
+    "bio": "Jeff Posnick has spent eight years as a member of Google's Developer Relations team, based in New York. He currently helps developers take advantage of the Open Web Platform's building blocks, like web components and service workers, by wrapping them in easy-to-use libraries.",
+    "position": "Developer Relations Engineer, Google",
+    "twitter": "https:\/\/twitter.com\/jeffposnick",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Jeff_Rosnick.jpg",
+    "session_ids": [315]
+  }, {
+    "id": 249,
+    "first_name": "Sameer",
+    "last_name": "Farooqui",
+    "bio": "Sameer is a Client Services Engineer at Databricks where he focuses on enabling Spark deployments via tech support, consulting and training. Prior to joining Databricks, Sameer was a freelance big data trainer and consutant. He has taught over 120 classes globally on big data topics such as Hadoop, HDFS, MapReduce, Hive, Pig HBase Cassandra, Couchbase, NoSQL architectures, OpenStack and Modern Application Development. He is also a regular speaker at various big data conferences such as Strata + Hadoop World, Cassandra Summit and Big Data Tech Con.\r\n\r\nBefore freelancing, Sameer was a Systems Architect at Hortonworks, an Emerging Data Platforms Consultant at Accenture R&D and an Enterprise Solutions Specialist at Symantec (VERITAS division).\r\n",
+    "position": "DataBricks",
+    "twitter": "https:\/\/twitter.com\/blueplastic",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/sameer_pic.jpg",
+    "session_ids": [437]
+  }, {
+    "id": 245,
+    "first_name": "Jessica",
+    "last_name": "Kerr",
+    "bio": "Jessica Kerr writes Scala at Stripe, raises two daughters and one guinea pig, and in her spare time explores programming languages. She speaks at conferences in the US and Europe.",
+    "position": "Engineer, Stripe",
+    "twitter": "https:\/\/twitter.com\/jessitron",
+    "web": "http:\/\/jessitron.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Jessica_Kerr.png",
+    "session_ids": [325]
+  }, {
+    "id": 241,
+    "first_name": "Brian",
+    "last_name": "Goetz",
+    "bio": "Brian Goetz is the Java Language Architect at Oracle, and was the specification lead for JSR-335 (Lambda Expressions for the Java Language.)  He is the author of the best-selling book \"Java Concurrency in Practice\" and is a frequent presenter at major industry conferences.",
+    "position": "Java Language Architect, Oracle",
+    "twitter": "https:\/\/twitter.com\/BrianGoetz",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Brian_Goetz.jpg",
+    "session_ids": [338, 337]
+  }, {
+    "id": 239,
+    "first_name": "Martin",
+    "last_name": "Snyder",
+    "bio": "As Chief Technology Officer for Wingspan Technology, Inc., Martin is responsible for technology and software engineering leadership. He brings over 20 years of experience as an executive and architect for enterprise applications, integration, and document management for global enterprise applications.  Wingspan creates document management applications for regulated industries.\r\n\r\nPrior to joining Wingspan, Martin founded and operated Ethermoon Entertainment, a video game development company. He has held leadership positions in Philadelphia, Boston, and Silicon Valley. Martin has also published and presented on a variety of topics over the years, most recently on the Scala programming language and Functional Programming.\r\n\r\nMartin graduated from Cornell University and holds a BS in Computer Science.",
+    "position": "CTO, Wingspan Technology, Inc.",
+    "twitter": "https:\/\/twitter.com\/martinsnyder",
+    "web": "http:\/\/martinsnyder.net\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Martin_Snyder.jpg",
+    "session_ids": [348]
+  }, {
+    "id": 238,
+    "first_name": "Johanna",
+    "last_name": "Rothman",
+    "bio": "Johanna Rothman, known as the \u201cPragmatic Manager,\u201d provides frank advice for your tough problems. She has written these books:\r\n\r\n<ul>\r\n<li>Agile and Lean Program Management: Scaling Collaboration Across the Organization<\/li>\r\n<li>Project Portfolio Tips: Twelve Ideas for Focusing on the Work You Need to Start & Finish <\/li>\r\n<li>Diving for Hidden Treasures: Finding the Value in Your Project Portfolio<\/li>\r\n<li>Predicting the Unpredictable: Pragmatic Approaches to Estimating Cost or Schedule<\/li>\r\n<li>Manage Your Job Search<\/li>\r\n<li>Hiring Geeks That Fit<\/li>\r\n<li>Manage Your Project Portfolio: Increase Your Capacity and Finish More<\/li>\r\n<\/ul> \r\n\r\n<strong>Projects<\/strong>\r\n\r\n<ul>\r\n<li>The 2008 Jolt Productivity award-winning Manage It! Your Guide to Modern, Pragmatic Project Management<\/li>\r\n<li>Behind Closed Doors: Secrets of Great Management<\/li>\r\n<li>Hiring the Best Knowledge Workers, Techies & Nerds: The Secrets and Science of Hiring Technical People<\/li>\r\n<\/ul>\r\n\r\nShe writes columns for <a target=\"_blank\" href=\"http:\/\/techwell.com\">techwell.com<\/a> and <a target=\"_blank\" href=\"projectmanagment.com\">projectmanagment.com<\/a>. She invites you to read her articles, blogs, and newsletters on <a target=\"_blank\" href=\"http:\/\/jrothman.com\">www.jrothman.com<\/a> and <a target=\"_blank\" href=\"www.createadaptablelife.com\">www.createadaptablelife.com.<\/a>",
+    "position": "Product Manager, Author, Speaker",
+    "twitter": "https:\/\/twitter.com\/johannarothman",
+    "web": "http:\/\/www.jrothman.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Johann_Rothman.jpg",
+    "session_ids": [212]
+  }, {
+    "id": 236,
+    "first_name": "Brent",
+    "last_name": "Vatne",
+    "bio": "I work at Exponent (<a target=\"_blank\" href=\"https:\/\/exponentjs.com\">exponentjs.com<\/a>) where we're building a platform to deliver mobile experiences that combine the best of web and native. I'm a core contributor to React Native, compiler of the React Native Newsletter (<a target=\"_blank\" href=\"http:\/\/reactnative.cc\">reactnative.cc<\/a>) and an organizer of React.js Conf 2016.",
+    "position": "React Native Contributor",
+    "twitter": "https:\/\/twitter.com\/notbrent",
+    "web": "http:\/\/brentvatne.ca\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Brent_Vatne.jpg",
+    "session_ids": [316]
+  }, {
+    "id": 206,
+    "first_name": "Jeff",
+    "last_name": "Labonski",
+    "bio": "Jeff Labonski is a seasoned technology leader, with 17 years of development experience and 7 in executive roles. He has worked in numerous startups from pre-angel to acquisition, as well as in larger companies up to the Fortune 50. He has always believed that the best technology leaders can still set a thread signal mask when needed, and continues to implement and enjoy tricky algorithms. Jeff is currently writing software and aiding in strategy for various clients at Chariot Solutions.",
+    "position": "Architect, Chariot Solutions",
+    "twitter": "",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Jeff_Labonski.jpg",
+    "session_ids": [357]
+  }, {
+    "id": 204,
+    "first_name": "Jim",
+    "last_name": "Sproch",
+    "bio": "Jim Sproch is a software engineer working on the React team at Facebook. His team supports React both internally at Facebook and externally on Github, including the design and development of the core framework. Prior to joining Facebook, Jim worked at Palantir developing counter terrorism software for various three-letter government organizations.",
+    "position": "React Core Team, Facebook",
+    "twitter": "",
+    "web": "http:\/\/www.jimsproch.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Jim_Sproch.jpg",
+    "session_ids": [403]
+  }, {
+    "id": 187,
+    "first_name": "Luke",
+    "last_name": "Wagner",
+    "bio": "Luke Wagner has worked at Mozilla for 6 years on JavaScript engine performance optimizations, asm.js, WebAssembly, and the Mozilla games program. Luke was one of the inventors of asm.js and implemented the initial asm.js optimizations in Firefox's JavaScript engine. Luke now participates in the WebAssembly W3C Community Group and works on Firefox's WebAssembly implementation.",
+    "position": "Research Engineer, Mozilla",
+    "twitter": "",
+    "web": "https:\/\/blog.mozilla.org\/luke\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Luke_Wagner.jpg",
+    "session_ids": [351]
+  }, {
+    "id": 185,
+    "first_name": "Joe",
+    "last_name": "Damato",
+    "bio": "Joe is a computologist who specializes in low level systems, performance analysis, and debugging really weird things. He built <a target=\"_blank\" href=\"https:\/\/packagecloud.io\">packagecloud.io<\/a> to help individuals and organizations easily create and manage package repositories for their internal infrastructure and users.",
+    "position": "CEO, Packagecloud.io",
+    "twitter": "https:\/\/twitter.com\/joedamato",
+    "web": "http:\/\/timetobleed.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/Joe_Damato.jpg",
+    "session_ids": [298]
+  }, {
+    "id": 170,
+    "first_name": "Jeanine",
+    "last_name": "Heck",
+    "bio": "Jeanine Gubler Heck serves as Executive Director in the Technology and Product organization of Comcast Cable. In this role, Jeanine is the product manager for voice recognition engine behind the X1 voice remote, which launched to customers in May 2015. The voice remote allows customers to easily discover content on X1 through intuitive voice commands.\r\n\r\nSince joining Comcast in 2007, in addition to managing the creation of the voice recognition capability, Jeanine has worked with a talented team of engineers to launch a cloud-enabled TV search engine, and managed the company\u2019s first TV recommendations engine. \r\n\r\nPrior to joining Comcast, Jeanine worked for Gemini Systems in New York City, an IT consulting company that developed software for financial services companies including the New York Stock Exchange, Jeanine\u2019s primary client. While at Gemini Systems, Jeanine held various roles, including programming, business analysis, and product management. \r\n\r\nJeanine received her bachelor\u2019s degree in Computer Science & Engineering from the University of Pennsylvania and an MBA from Columbia University. She lives in the Philadelphia area with her husband and 3 children.\r\n",
+    "position": "Executive Director of Technology and Product, Comcast Cable",
+    "twitter": "https:\/\/twitter.com\/j9heck",
+    "web": "",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/Jeanine-Heck.jpg",
+    "session_ids": [172]
+  }, {
+    "id": 168,
+    "first_name": "Adriaan",
+    "last_name": "Moors",
+    "bio": "Adriaan has been hacking the Scala compiler since 2007 (type constructor polymorphism, dependent method types and implicits, 2.10's rewritten pattern matcher). In 2012 he joined Typesafe to lead the Scala team, with a mission to make Scala easier to use as well as to contribute to. He's currently working on encoding traits as interfaces with default methods for the 2.12 release. In 140 chars or less: Belgian, espresso snob, writer of own bio in the third person.",
+    "position": "Scala Compiler Team Lead",
+    "twitter": "https:\/\/twitter.com\/adriaanm",
+    "web": "http:\/\/adriaanm.github.io\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/Adriaan_Moors.jpg",
+    "session_ids": [303]
+  }, {
+    "id": 166,
+    "first_name": "A.",
+    "last_name": "Jesse",
+    "bio": "A. Jesse Jiryu Davis is a staff engineer at MongoDB in New York City. He is the author of Motor, the async MongoDB Python driver. He leads development of the MongoDB C Driver and is a member of the PyMongo team. Jesse is the co-author with Guido van Rossum of a chapter on async Python coroutines in the book \"500 Lines Or Less\" in the Architecture of Open Source Applications series.",
+    "position": "Staff Engineer, MongoDB",
+    "twitter": "https:\/\/twitter.com\/jessejiryudavis",
+    "web": "https:\/\/emptysqua.re\/blog\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/Jesse_Davis.png",
+    "session_ids": [296]
+  }, {
+    "id": 164,
+    "first_name": "Raffi",
+    "last_name": "Krikorian",
+    "bio": "I work at Uber's Advanced Technologies Center thinking about and building massive scale data and software platforms to change computing, transportation, and the world.\r\n\r\nUntil August 2014, I was Twitter's VP of Engineering in charge of the Platform, the core infrastructure of Twitter. I managed 400 people who worked on, amongst other things, the business logic, the scalable services, APIs, storage, core libraries, and the internal development model of all of Twitter.\r\n\r\nBefore Twitter I used to create technologies to help people frame their personal energy consumption against global energy production (Wattzon - Business Week's \"Best Idea\" 2008), fueled my television habit through writing \"TiVo Hacks\" (O'Reilly, August 2003), and also ran a consulting company building off-the-wall projects. At one point, I also used to teach at NYU\u2019s ITP (created the class Every Bit You Make) and spent way too much time as a student at MIT and the MIT Media Lab (Internet 0 - Scientific American September 2004).",
+    "position": "Engineering Lead, Uber Advanced Technologies Center",
+    "twitter": "https:\/\/twitter.com\/raffi",
+    "web": "https:\/\/about.me\/raffi.krikorian",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/Raffi_Krikorian.jpg",
+    "session_ids": [439]
+  }, {
+    "id": 162,
+    "first_name": "Jean",
+    "last_name": "Yang",
+    "bio": "Jean Yang is an Assistant Professor at Carnegie Mellon University in the Computer Science Department. She completed her PhD at MIT in 2015 and is spending the 2015-2016 academic year at Harvard Medical School. For her PhD thesis she created the Jeeves programming language for automatically enforcing security and privacy policies. Her work on Verve, an operating system verified automatically and end-to-end for type safety, won Best Paper Award at the Programming Language Design and Implementation Conference.",
+    "position": "Creator, Jeeves",
+    "twitter": "https:\/\/twitter.com\/jeanqasaur",
+    "web": "http:\/\/jeanyang.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/Jean_Yang.jpg",
+    "session_ids": [307]
+  }, {
+    "id": 160,
+    "first_name": "Yehuda",
+    "last_name": "Katz",
+    "bio": "Yehuda Katz is one of the creators of <a target=\"_blank\" href=\"http:\/\/emberjs.com\/\">Ember.js<\/a>, a member of the <a target=\"_blank\" href=\"https:\/\/www.rust-lang.org\/\">Rust<\/a> Core Team, and a retired <a target=\"_blank\" href=\"http:\/\/rubyonrails.org\/\">Ruby on Rails<\/a> and <a target=\"_blank\" href=\"http:\/\/jquery.com\/\">jQuery<\/a> Core Team member. His 9-to-5 home is at the startup he founded, <a target=\"_blank\" href=\"http:\/\/www.tilde.io\/\">Tilde Inc.<\/a> There he works on <a target=\"_blank\" href=\"https:\/\/www.skylight.io\/\">Skylight<\/a>, the smart profiler for Rails, and does <a target=\"_blank\" href=\"http:\/\/www.tilde.io\/ember-consulting\/\">Ember.js consulting<\/a>. He's best known for his open source work, which also includes having created projects like <a target=\"_blank\" href=\"https:\/\/github.com\/erikhuda\/thor\">Thor<\/a>, <a target=\"_blank\" href=\"http:\/\/handlebarsjs.com\/\">Handlebars<\/a> and <a target=\"_blank\" href=\"http:\/\/bundler.io\/\">Bundler<\/a>. He travels the world doing open source evangelism and web standards work. He blogs at <a target=\"_blank\" href=\"http:\/\/yehudakatz.com\/\">http:\/\/yehudakatz.com<\/a> and can be found on Twitter as <a target=\"_blank\" href=\"https:\/\/twitter.com\/wycats\">@wycats.<\/a>",
+    "position": "Co-Creator, Ember.js",
+    "twitter": "https:\/\/twitter.com\/wycats",
+    "web": "http:\/\/yehudakatz.com\/",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/Yehuda_Katz.jpg",
+    "session_ids": [436]
+  }],
+  "conference": {
+    "conference_name": "ETE2016",
+    "start_date": "20160411",
+    "end_date": "20160412",
+    "latitude": "39.9462607",
+    "longitude": "-75.14346019999999",
+    "image_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/cropped-eteLogo.png",
+    "twitter_hashtag": "#phillyete",
+    "venue": "Society Hill Sheraton",
+    "venue_website": "http:\/\/www.starwoodhotels.com",
+    "venue_phone": "215-238-6000",
+    "street_address": "1 Dock Street",
+    "city": "Philadelphia",
+    "state": "PA ",
+    "zip": "19106"
+  },
+  "events": [{
+    "id": 480,
+    "description": "<strong>Date:<\/strong> April 11, 2016\r\n<strong>Time:<\/strong> 7PM - 9PM\r\n<strong>Location:<\/strong> Hamilton Room, Sheraton Society Hill\r\nDon't forget your drink tickets! ",
+    "name": "Happy Hour",
+    "sponsor_id": 183,
+    "start_time": "2016-04-11T19:00:00-04:00",
+    "end_time": "2016-04-11T21:00:00-04:00",
+    "duration": 120
+  }, {
+    "id": 363,
+    "description": "<br>\r\n<br>\r\nFans of Johanna Rothman are in luck - she's in town for the Philly ETE meeting on the evening of 4\/11.\r\n\r\nAs in prior years, AgilePhilly meets the MONDAY EVENING smack in the middle of the Philly ETE conference at the Sheraton Olde City on 2nd street. We converse with the national authors and speakers who come to town to speak on the Agile track of the conference.\r\n\r\n<strong>Format of the night:<\/strong>\r\n\r\nSame as last year when we had a free-form discussion with Ron Jefferies, we will generally start at 6:00 PM in a meeting room at Old City Sheraton where the Philly ETE Conference is held.  Late arrivals are welcome to come and jump in anytime. Snacks are cookies and pretzels. \r\n\r\nWe generally only get about 10 to 12 people to show up, but this committed core of drive the subject of conversation and we keep it informal with just chairs-in-a-circle format.  \r\n\r\nIf it goes past 8:00 pm, we generally re-convened in the bar.  When Andre did it, he would often propose a topic, but I just let the conversation happen.\r\n\r\nOur thanks to Chariot Solutions for offering the meeting space for this meeting. \r\n\r\nNo food is available for this meeting, but we hope you will join us afterwards at the bar or restaurant.",
+    "name": "AgilePhilly Meetup at ETE: Johanna Rothman",
+    "sponsor_id": 179,
+    "start_time": "2016-04-11T18:00:00-04:00",
+    "end_time": "2016-04-11T20:00:00-04:00",
+    "duration": 120
+  }],
+  "sponsors": [{
+    "id": 468,
+    "sponsor_display_order": 9,
+    "description": "",
+    "name": "Lightbend",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/03\/lightbend-full-color.png",
+    "sponsor_type_name": "Friend",
+    "url": "https:\/\/www.lightbend.com\/"
+  }, {
+    "id": 444,
+    "sponsor_display_order": 9,
+    "description": "",
+    "name": "Bright Technology Resources",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/03\/Screen-Shot-2016-03-08-at-12.48.54-PM.png",
+    "sponsor_type_name": "Friend",
+    "url": ""
+  }, {
+    "id": 386,
+    "sponsor_display_order": 8,
+    "description": "Cloudera delivers the modern platform for data management and analytics. The world\u2019s leading organizations trust Cloudera to help solve their most challenging business problems with Cloudera Enterprise, the fastest, easiest and most secure data platform built on Apache Hadoop and the latest open source technologies.",
+    "name": "Cloudera",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/02\/Cloudera_logo_blue.png",
+    "sponsor_type_name": "Pre-Party",
+    "url": "http:\/\/www.cloudera.com\/"
+  }, {
+    "id": 323,
+    "sponsor_display_order": 6,
+    "description": "",
+    "name": "Urban Outfitters",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/urbn_engineering.png",
+    "sponsor_type_name": "Lanyard",
+    "url": "http:\/\/urbanoutfitters.com"
+  }, {
+    "id": 321,
+    "sponsor_display_order": 4,
+    "description": "Hazelcast is the leading provider of operational in-memory computing with tens of thousands of installed clusters and over 13 million server starts per month. The Hazelcast operational in-memory computing platform helps leading companies, like Capital One and Deutsche Bank, manage their data and distribute processing using in-memory storage and parallel execution for breakthrough application speed and scale.",
+    "name": "Hazelcast",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/HazelcastLogo-Blue_Dark_800w.png",
+    "sponsor_type_name": "Lunch",
+    "url": "http:\/\/hazelcast.com"
+  }, {
+    "id": 319,
+    "sponsor_display_order": 4,
+    "description": "IntegriChain is an innovative company addressing today\u2019s challenges in channel management. We offer the leading channel management cloud used by healthcare suppliers to manage relationships, inventories, and orders across retailers, e-tailers, and distributors. We first launched our commerce platform in 2007, and today we optimize hundreds of billions of dollars in annual US commerce \u2013 more than $200 billion annually.  ",
+    "name": "IntegriChain",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2016\/01\/int_logo.png",
+    "sponsor_type_name": "Lunch",
+    "url": "http:\/\/integrichain.com"
+  }, {
+    "id": 247,
+    "sponsor_display_order": 2,
+    "description": "At Cerner, we\u2019re continuously building on our foundation of intelligent solutions for the health care industry. Our technologies connect people and systems at more than 14,000 facilities worldwide, and our wide range of services support the clinical, financial and operational needs of organizations of every size.",
+    "name": "Cerner",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/Cerner_CMYK_Standard_horizontal.jpg",
+    "sponsor_type_name": "Video",
+    "url": "http:\/\/www.cerner.com"
+  }, {
+    "id": 234,
+    "sponsor_display_order": 9,
+    "description": "",
+    "name": "ArdenTex",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/logo-ardentex-300.png",
+    "sponsor_type_name": "Friend",
+    "url": "http:\/\/www.ardentex.com"
+  }, {
+    "id": 216,
+    "sponsor_display_order": 9,
+    "description": "",
+    "name": "Wingspan Technology",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/12\/black-and-blue-logo.jpg",
+    "sponsor_type_name": "Friend",
+    "url": "http:\/\/www.wingspan.com"
+  }, {
+    "id": 183,
+    "sponsor_display_order": 5,
+    "description": "We take ownership of the applications we develop from start to finish. With experts in almost every discipline, we build some of the most powerful trading systems in the financial industry. By integrating sophisticated coding techniques with innovative engineering ideas and emerging technologies, we design and optimize systems that can process massive amounts of data while ensuring high performance and stability. We have a <a target=\"_blank\" href=\"http:\/\/www.sig.com\/technology\/technology\/\">diverse technology environment<\/a>, and our technologists select the best hardware or software tools to build the optimal solutions.",
+    "name": "Susquehanna International Group",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/SIG_A_color.png",
+    "sponsor_type_name": "Happy Hour",
+    "url": "http:\/\/www.sig.com"
+  }, {
+    "id": 181,
+    "sponsor_display_order": 1,
+    "description": "eMoney aggregates more than $1.4 trillion dollars in assets for more than 25,000 financial professionals across three countries and in all fifty states, serving a million end-clients. In a manner unparalleled by any other system, eMoney has helped advisors increase assets under management, identify product opportunities, and win their clients\u2019 confidence and loyalty.",
+    "name": "eMoney Advisor",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/eMoney_Logo.jpeg",
+    "sponsor_type_name": "Headline",
+    "url": "http:\/\/www.emoneyadvisor.com"
+  }, {
+    "id": 179,
+    "sponsor_display_order": 1,
+    "description": "Chariot Solutions is a software development consulting firm. We build and integrate the critical software applications that run our clients\u2019 businesses. We are successful because we attract the most talented and collaborative software architects in the region. They are leaders in Java, open source and emerging technologies. We work in small, agile teams. We solve hard problems with a practical approach centered on communication, common sense and continual learning. We believe it is important to give back to our community through shared learning.",
+    "name": "Chariot Solutions",
+    "picture_url": "http:\/\/2016.phillyemergingtech.com\/wp-content\/uploads\/2015\/11\/chariot-presented-by.jpg",
+    "sponsor_type_name": "Headline",
+    "url": "http:\/\/www.chariotsolutions.com"
+  }],
+  "tags": [{
+    "id": 24,
+    "name": "languages"
+  }, {
+    "id": 26,
+    "name": "infrastructure"
+  }, {
+    "id": 27,
+    "name": "keynote"
+  }, {
+    "id": 28,
+    "name": "frameworks"
+  }, {
+    "id": 29,
+    "name": "agile"
+  }, {
+    "id": 30,
+    "name": "mobile"
+  }, {
+    "id": 31,
+    "name": "management"
+  }, {
+    "id": 33,
+    "name": "scala"
+  }, {
+    "id": 34,
+    "name": "elm"
+  }, {
+    "id": 35,
+    "name": "functional"
+  }, {
+    "id": 36,
+    "name": "reactive"
+  }, {
+    "id": 37,
+    "name": "javascript"
+  }, {
+    "id": 38,
+    "name": "human resources"
+  }, {
+    "id": 39,
+    "name": "artificial intelligence"
+  }, {
+    "id": 40,
+    "name": "watson"
+  }, {
+    "id": 41,
+    "name": "polymer"
+  }, {
+    "id": 42,
+    "name": "web components"
+  }, {
+    "id": 43,
+    "name": "html"
+  }, {
+    "id": 44,
+    "name": "executive"
+  }, {
+    "id": 45,
+    "name": "product development"
+  }, {
+    "id": 46,
+    "name": "kubernetes"
+  }, {
+    "id": 47,
+    "name": "microservices"
+  }, {
+    "id": 48,
+    "name": "rpc"
+  }, {
+    "id": 49,
+    "name": "containers"
+  }, {
+    "id": 50,
+    "name": "devops"
+  }, {
+    "id": 51,
+    "name": "iot"
+  }, {
+    "id": 52,
+    "name": "nfc"
+  }, {
+    "id": 53,
+    "name": "kafka"
+  }, {
+    "id": 54,
+    "name": "stream processing"
+  }, {
+    "id": 55,
+    "name": "big data"
+  }, {
+    "id": 56,
+    "name": "mentoring"
+  }, {
+    "id": 57,
+    "name": "flink"
+  }, {
+    "id": 58,
+    "name": "spark"
+  }, {
+    "id": 59,
+    "name": "java"
+  }, {
+    "id": 60,
+    "name": "angular"
+  }, {
+    "id": 61,
+    "name": "akka"
+  }, {
+    "id": 62,
+    "name": "react.js"
+  }, {
+    "id": 63,
+    "name": "sql"
+  }, {
+    "id": 64,
+    "name": "cybersecurity"
+  }, {
+    "id": 65,
+    "name": "cloud"
+  }, {
+    "id": 66,
+    "name": "tools"
+  }, {
+    "id": 67,
+    "name": "angular 2"
+  }, {
+    "id": 68,
+    "name": "software development process"
+  }, {
+    "id": 69,
+    "name": "clojure"
+  }, {
+    "id": 70,
+    "name": "streaming"
+  }, {
+    "id": 71,
+    "name": "virtual reality"
+  }]
+}

@@ -1,0 +1,17 @@
+<ion-navbar *navbar primary>
+  <ion-title>
+    {{person.first_name}} {{person.last_name}}
+  </ion-title>
+</ion-navbar>
+
+<ion-content padding class="speaker-detail">
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-left>
+        <img [src]="person.picture_url" alt="">
+        </ion-avatar>
+      {{person.first_name}} {{person.last_name}}
+    </ion-item>
+    <ion-card-content [innerHtml]="person.bio | markdown"></ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,23 @@
+<ion-navbar *navbar primary>
+  <ion-title>
+    {{session.name}}
+  </ion-title>
+  <ion-buttons end>
+    <button (click)="share()">
+      <ion-icon name="share"></ion-icon>
+    </button>
+    </ion-buttons>
+</ion-navbar>
+
+<ion-content padding class="session-detail">
+  <ion-card>
+    <ion-card-header>
+      {{session.name}}
+    </ion-card-header>
+    <ion-card-content>
+      <h4>{{session.start_time | moment:'dddd, h:mma'}} - {{session.end_time| moment:'h:mma'}}</h4>
+      <p [innerHtml]="session.description | markdown"></p>
+      <h3 [class]="session.track| lowercase ">{{session.track}}</h3>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

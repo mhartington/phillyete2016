@@ -1,0 +1,16 @@
+<ion-navbar *navbar primary>
+  <ion-title>Schedule</ion-title>
+</ion-navbar>
+
+<ion-toolbar primary>
+  <ion-searchbar [(ngModel)]="searchQuery"></ion-searchbar>
+</ion-toolbar>
+
+<ion-content>
+  <ion-list>
+    <a ion-item *ngFor="#talk of schedule | filter:searchQuery | orderBy:'start_time'" (click)="getTalk(talk)" [ngClass]="talk.track | lowercase">
+      <p>{{talk.name}}</p>
+      <p>{{talk.start_time | moment:'ddd, h:mma'}}</p>
+    </a>
+  </ion-list>
+</ion-content>

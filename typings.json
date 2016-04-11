@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160305082308",
+    "moment": "registry:npm/moment#2.10.5+20160211003958"
+  },
+  "devDependencies": {},
+  "ambientDependencies": {
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
+    "marked": "registry:dt/marked#0.0.0+20160325085301"
+  }
+}
