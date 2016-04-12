@@ -15,8 +15,11 @@
       {{session.name}}
     </ion-card-header>
     <ion-card-content>
+      
       <h4>{{session.start_time | moment:'dddd, h:mma'}} - {{session.end_time| moment:'h:mma'}}</h4>
+      
       <p [innerHtml]="session.description | markdown"></p>
+      
       <h3 [class]="session.track| lowercase ">{{session.track}}</h3>
     </ion-card-content>
   </ion-card>

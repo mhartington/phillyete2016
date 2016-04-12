@@ -11,11 +11,13 @@ export class SessionDetailPage {
   constructor(
     public params: NavParams,
     public nav: NavController) {
+    console.log(params)
     this.session = params.get('session')
   }
 
   share() {
     let message = 'Attending ' + this.session.name + '. #PhillyETE';
+
     Camera.getPicture({
       quality: 100,
       saveToPhotoAlbum: true
